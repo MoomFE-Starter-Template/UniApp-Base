@@ -5,7 +5,7 @@ import { presetExtra } from 'unocss-preset-extra';
 import { outputFileSync } from 'fs-extra';
 import { dataToEsm } from '@rollup/pluginutils';
 
-const isApplet = process.env?.UNI_PLATFORM?.startsWith('mp');
+const isApplet = !!process.env?.UNI_PLATFORM?.startsWith('mp');
 
 export default defineConfig({
   theme: {
