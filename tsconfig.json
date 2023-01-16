@@ -20,7 +20,8 @@
     "forceConsistentCasingInFileNames": true,
     "types": [
       "vite/client",
-      "@dcloudio/types"
+      "@dcloudio/types",
+      "miniprogram-api-typings"
     ],
     "paths": {
       "~/*": ["./src/*"],
