@@ -2,6 +2,54 @@
   "folders": [
     {
       "path": "."
+    },
+    {
+      "path": "src\\static",
+      "name": "Static"
+    },
+    {
+      "path": "src\\styles",
+      "name": "Styles"
+    },
+    {
+      "path": "src\\shared",
+      "name": "Shared"
+    },
+    {
+      "path": "src\\libs",
+      "name": "Libs"
+    },
+    {
+      "path": "src\\utils",
+      "name": "Utils"
+    },
+    {
+      "path": "src\\modules",
+      "name": "Modules"
+    },
+    {
+      "path": "src\\workers",
+      "name": "Workers"
+    },
+    {
+      "path": "src\\stores",
+      "name": "Stores"
+    },
+    {
+      "path": "src\\composables",
+      "name": "Composables"
+    },
+    {
+      "path": "src\\components",
+      "name": "Components"
+    },
+    {
+      "path": "src\\components-private",
+      "name": "Components Private"
+    },
+    {
+      "path": "src\\pages",
+      "name": "Pages"
     }
   ],
   "settings": {
@@ -20,9 +68,28 @@
     "files.exclude": {
       "*.code-workspace": true,
       "node_modules": true,
+      "src/components": true,
+      "src/components-private": true,
+      "src/composables": true,
+      "src/libs": true,
+      "src/modules": true,
+      "src/pages": true,
+      "src/router": true,
+      "src/shared": true,
+      "src/static": true,
+      "src/stores": true,
+      "src/styles": true,
+      "src/utils": true,
+      "src/workers": true
     },
     "typescript.tsdk": "node_modules/typescript/lib",
     "prettier.enable": false,
+    "i18n-ally.enabledFrameworks": ["vue"],
+    "i18n-ally.displayLanguage": "zh-CN",
+    "i18n-ally.localesPaths": [
+      "locales",
+      "../../locales"
+    ],
     "eslint.quiet": true,
     "eslint.validate": [
       "javascript",
