@@ -82,6 +82,10 @@
       "src/utils": true,
       "src/workers": true
     },
+    "files.associations": {
+      "pages.json": "jsonc",
+      "manifest.json": "jsonc"
+    },
     "typescript.tsdk": "node_modules/typescript/lib",
     "prettier.enable": false,
     "i18n-ally.enabledFrameworks": ["vue"],
@@ -102,10 +106,20 @@
       "json",
       "jsonc",
       "json5"
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "vue.volar",
+      "antfu.iconify",
+      "antfu.unocss",
+      "dbaeumer.vscode-eslint",
+      "csstools.postcss",
+      "uni-helper.uni-app-schemas-vscode",
+      "uni-helper.uni-app-snippets-vscode"
     ],
-    "files.associations": {
-      "pages.json": "jsonc",
-      "manifest.json": "jsonc"
-    }
+    "unwantedRecommendations": [
+      "octref.vetur"
+    ]
   }
 }
