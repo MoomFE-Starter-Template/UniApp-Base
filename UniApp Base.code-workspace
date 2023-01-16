@@ -35,6 +35,10 @@
       "json",
       "jsonc",
       "json5"
-    ]
+    ],
+    "files.associations": {
+      "pages.json": "jsonc",
+      "manifest.json": "jsonc"
+    }
   }
 }
