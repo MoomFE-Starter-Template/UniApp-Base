@@ -2,15 +2,20 @@
   // pages 数组中第一项表示应用启动页, 参考：https://uniapp.dcloud.io/collocation/pages
   "pages": [
     {
-      "path": "pages/index/index",
+      "path": "pages/index",
       "style": {
-        "navigationBarTitleText": "uni-app"
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/hello/name",
+      "style": {
+        "navigationStyle": "custom"
       }
     }
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
