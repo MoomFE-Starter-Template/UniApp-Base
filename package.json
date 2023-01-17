@@ -36,6 +36,7 @@
     "@vueuse/core": "^9.10.0",
     "@vueuse/math": "^9.10.0",
     "lodash-es": "^4.17.21",
+    "pinia": "^2.0.29",
     "vue": "^3.2.45"
   },
   "devDependencies": {
