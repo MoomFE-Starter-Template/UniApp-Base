@@ -21,6 +21,7 @@
     "types": [
       "vite/client",
       "@dcloudio/types",
+      "@uni-helper/uni-app-types",
       "@uni-helper/uni-ui-types",
       "miniprogram-api-typings"
     ],
