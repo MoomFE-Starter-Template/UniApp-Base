@@ -111,6 +111,7 @@
   "extensions": {
     "recommendations": [
       "vue.volar",
+      "vue.vscode-typescript-vue-plugin",
       "antfu.iconify",
       "antfu.unocss",
       "dbaeumer.vscode-eslint",
