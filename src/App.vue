@@ -10,4 +10,6 @@
   });
 </script>
 
-<style></style>
+<style>
+  @import "@/wxcomponents/vant/common/index.wxss";
+</style>

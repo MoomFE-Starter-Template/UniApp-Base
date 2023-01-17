@@ -3,6 +3,8 @@
 node_modules
 dist
 
+src/wxcomponents
+
 components.d.ts
 auto-imports.d.ts
 .eslintrc-auto-import.json

@@ -1,13 +1,11 @@
 <template>
-  <view class="flex flex-col items-center justify-center">
-    <image class="size-25 mt-25 mxa mb-6.25" src="/static/logo.png" />
-    <view class="flex justify-center">
-      <text class="text-4.5 c-[#8f8f94]">{{ title }}</text>
-      <view class="i-material-symbols-approval-outline" />
-    </view>
+  <view>
+    <van-button>
+      123
+    </van-button>
   </view>
 </template>
 
-<script setup lang="ts">
-  const title = ref('Hello');
+<script lang="ts" setup>
+
 </script>

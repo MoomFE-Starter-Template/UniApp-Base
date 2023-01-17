@@ -4,6 +4,7 @@ import Uni from '@dcloudio/vite-plugin-uni';
 import Unocss from 'unocss/vite';
 import Components from 'unplugin-vue-components/vite';
 import AutoImport from 'unplugin-auto-import/vite';
+import './scripts/configureVantWeapp';
 
 export default defineConfig({
   // 路径别名
