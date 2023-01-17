@@ -21,12 +21,17 @@
     "types": [
       "vite/client",
       "@dcloudio/types",
+      "@uni-helper/uni-ui-types",
       "miniprogram-api-typings"
     ],
     "paths": {
       "~/*": ["./src/*"],
       "@/*": ["./src/*"],
       "@@/*": ["./*"]
+    },
+    "vueCompilerOptions": {
+      "experimentalRuntimeMode": "runtime-uni-app",
+      "nativeTags": ["block", "component", "template", "slot"]
     }
   },
   "exclude": [
