@@ -16,8 +16,6 @@ export default defineConfig({
   },
   // 插件
   plugins: [
-    // uni-app
-    Uni(),
     // 原子化 CSS 引擎
     Unocss(),
     // 自动导入使用到的组件
@@ -46,5 +44,7 @@ export default defineConfig({
         enabled: true,
       },
     }),
+    // uni-app
+    Uni(),
   ],
 });
