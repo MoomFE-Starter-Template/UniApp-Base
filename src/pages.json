@@ -1,20 +1,11 @@
 {
   // pages 数组中第一项表示应用启动页, 参考：https://uniapp.dcloud.io/collocation/pages
   "pages": [
-    {
-      "path": "pages/index",
-      "style": {
-        "navigationStyle": "custom"
-      }
-    },
-    {
-      "path": "pages/hello/name",
-      "style": {
-        "navigationStyle": "custom"
-      }
-    }
+    { "path": "pages/index" },
+    { "path": "pages/hello/name" }
   ],
   "globalStyle": {
+    "navigationBarTitleText": "Uniapp 项目模板",
     "navigationBarTextStyle": "black",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
