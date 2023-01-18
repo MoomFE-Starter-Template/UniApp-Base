@@ -64,6 +64,7 @@
     "unocss-preset-extra": "^0.4.3",
     "unplugin-auto-import": "^0.12.1",
     "unplugin-vue-components": "^0.22.12",
-    "vite": "4.0.4"
+    "vite": "4.0.4",
+    "vite-plugin-inspect": "^0.7.14"
   }
 }

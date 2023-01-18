@@ -4,6 +4,7 @@ import Uni from '@dcloudio/vite-plugin-uni';
 import Unocss from 'unocss/vite';
 import Components from 'unplugin-vue-components/vite';
 import AutoImport from 'unplugin-auto-import/vite';
+import Inspect from 'vite-plugin-inspect';
 
 export default defineConfig({
   // 路径别名
@@ -46,5 +47,7 @@ export default defineConfig({
     }),
     // uni-app
     Uni(),
+    // 插件调试
+    Inspect(),
   ],
 });
