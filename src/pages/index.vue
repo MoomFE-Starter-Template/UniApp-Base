@@ -1,5 +1,5 @@
 <template>
-  <view class="px-4 py-10 text-center">
+  <HomeLayout>
     <TheLogo />
 
     <view class="mt-2">
@@ -17,7 +17,7 @@
         确定
       </button>
     </view>
-  </view>
+  </HomeLayout>
 </template>
 
 <script lang="ts" setup>

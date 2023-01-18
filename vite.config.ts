@@ -23,6 +23,7 @@ export default defineConfig({
     Components({
       dts: path.resolve(__dirname, './types/components.d.ts'),
       dirs: [
+        path.resolve(__dirname, './src/layouts'),
         path.resolve(__dirname, './src/components'),
         path.resolve(__dirname, './src/components-private'),
       ],

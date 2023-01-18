@@ -1,5 +1,5 @@
 <template>
-  <view class="px-4 py-10 text-center">
+  <HomeLayout>
     <view class="text-5xl">
       <view class="i-iconoir-people-rounded inline-block" />
     </view>
@@ -13,7 +13,7 @@
         返回
       </button>
     </view>
-  </view>
+  </HomeLayout>
 </template>
 
 <script lang="ts" setup>

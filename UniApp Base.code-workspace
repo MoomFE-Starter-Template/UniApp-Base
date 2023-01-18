@@ -48,6 +48,10 @@
       "name": "Components Private"
     },
     {
+      "path": "src\\layouts",
+      "name": "Layouts"
+    },
+    {
       "path": "src\\pages",
       "name": "Pages"
     }
@@ -71,6 +75,7 @@
       "src/components": true,
       "src/components-private": true,
       "src/composables": true,
+      "src/layouts": true,
       "src/libs": true,
       "src/modules": true,
       "src/pages": true,
