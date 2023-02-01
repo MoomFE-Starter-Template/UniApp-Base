@@ -13,6 +13,7 @@
 - 🍍 [使用 Pinia 的状态管理](https://pinia.vuejs.org)
 - 🔥 使用 [新的 `<script setup>` 语法](https://github.com/vuejs/rfcs/pull/227)
 - 🦾 TypeScript 支持
+- ☁️ 零配置部署 Netlify 和 Vercel
 
 <br>
 
