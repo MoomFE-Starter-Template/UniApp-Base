@@ -1,4 +1,4 @@
-import { resolve } from 'path';
+import { resolve } from 'node:path';
 import { defineConfig, presetAttributify, presetIcons, transformerDirectives, transformerVariantGroup } from 'unocss';
 import { presetApplet, presetRemToRpx, transformerApplet, transformerAttributify } from 'unocss-applet';
 import { presetExtra } from 'unocss-preset-extra';
