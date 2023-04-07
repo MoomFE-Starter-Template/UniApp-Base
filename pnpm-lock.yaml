@@ -29,6 +29,7 @@ specifiers:
   lodash-es: ^4.17.21
   miniprogram-api-typings: ^3.9.0
   pinia: ^2.0.33
+  pnpm: ^8.1.1
   sass: ^1.61.0
   typescript: ^5.0.3
   unocss: ^0.50.6
@@ -72,6 +73,7 @@ devDependencies:
   eslint: 8.37.0
   fs-extra: 11.1.1
   miniprogram-api-typings: 3.9.0
+  pnpm: 8.1.1
   sass: 1.61.0
   typescript: 5.0.3
   unocss: 0.50.6_vite@4.2.1
@@ -5702,6 +5704,12 @@ packages:
     resolution: {integrity: sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w==}
     engines: {node: '>=4.0.0'}
     dev: false
+
+  /pnpm/8.1.1:
+    resolution: {integrity: sha512-XLzcc4O8YrqfQ1+qjPtHGDFcdUeno2Zk+kuuSc9CagIiY8y4uhnqQ2B7jW8tgwQDNmehewGZuqrAoskgCkbTnw==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+    dev: true
 
   /postcss-import/14.1.0:
     resolution: {integrity: sha512-flwI+Vgm4SElObFVPpTIT7SU7R3qk2L7PyduMcokiaVKuWv9d/U+Gm/QAd8NDLuykTWTkcrjOeD2Pp1rMeBTGw==}
