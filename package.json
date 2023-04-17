@@ -52,8 +52,8 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-alpha-3071320230411001",
     "@dcloudio/uni-ui": "^1.4.26",
     "@moomfe/small-utils": "^5.3.1",
-    "@vueuse/core": "^9.13.0",
-    "@vueuse/math": "^9.13.0",
+    "@vueuse/core": "^10.0.2",
+    "@vueuse/math": "^10.0.2",
     "lodash-es": "^4.17.21",
     "pinia": "^2.0.34",
     "vue": "^3.2.47"
@@ -64,7 +64,7 @@
     "@dcloudio/uni-cli-shared": "3.0.0-alpha-3071320230411001",
     "@dcloudio/uni-stacktracey": "3.0.0-alpha-3071320230411001",
     "@dcloudio/vite-plugin-uni": "3.0.0-alpha-3071320230411001",
-    "@iconify/json": "^2.2.48",
+    "@iconify/json": "^2.2.50",
     "@moomfe/eslint-config": "^2.4.0",
     "@rollup/pluginutils": "^5.0.2",
     "@types/fs-extra": "^11.0.1",
@@ -77,14 +77,14 @@
     "fs-extra": "^11.1.1",
     "miniprogram-api-typings": "^3.9.1",
     "pnpm": "^8.2.0",
-    "sass": "^1.61.0",
+    "sass": "^1.62.0",
     "typescript": "^5.0.4",
     "unocss": "^0.51.4",
     "unocss-applet": "^0.4.3",
     "unocss-preset-extra": "^0.5.2",
-    "unplugin-auto-import": "^0.15.2",
+    "unplugin-auto-import": "^0.15.3",
     "unplugin-vue-components": "^0.24.1",
     "vite": "4.2.1",
-    "vite-plugin-inspect": "^0.7.20"
+    "vite-plugin-inspect": "^0.7.22"
   }
 }
