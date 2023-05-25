@@ -29,3 +29,11 @@
     });
   }
 </script>
+
+<style lang="scss">
+  /* #ifndef H5 || APP-PLUS */
+    .uni-easyinput ::v-deep input{
+      text-align: center;
+    }
+  /* #endif */
+</style>
