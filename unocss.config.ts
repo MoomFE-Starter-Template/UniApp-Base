@@ -1,6 +1,6 @@
 import { resolve } from 'node:path';
 import { defineConfig, presetAttributify, presetIcons, transformerDirectives, transformerVariantGroup } from 'unocss';
-import { presetApplet, presetRemToRpx, transformerApplet, transformerAttributify } from 'unocss-applet';
+import { presetApplet, presetRemRpx, transformerApplet, transformerAttributify } from 'unocss-applet';
 import { presetExtra } from 'unocss-preset-extra';
 import { outputFileSync } from 'fs-extra';
 import { dataToEsm } from '@rollup/pluginutils';
@@ -50,7 +50,7 @@ export default defineConfig({
     // 默认预设, 和 Tailwind 类似
     presetApplet({ enable: isApplet }),
     // 将 rem 单位转为 rpx
-    presetRemToRpx({ enable: isApplet }),
+    presetRemRpx({ enable: isApplet }),
     // 属性模式
     presetAttributify({
       prefix: 'un:',
