@@ -44,6 +44,7 @@ export default defineConfig({
       ],
       eslintrc: {
         enabled: true,
+        filepath: path.resolve(__dirname, './.eslintrc-auto-import.json'),
       },
     }),
     // uni-app
