@@ -119,10 +119,11 @@
     "recommendations": [
       "vue.volar",
       "vue.vscode-typescript-vue-plugin",
+      "dbaeumer.vscode-eslint",
       "antfu.iconify",
       "antfu.unocss",
-      "dbaeumer.vscode-eslint",
       "csstools.postcss",
+      "syler.sass-indented",
       "uni-helper.uni-app-schemas-vscode",
       "uni-helper.uni-app-snippets-vscode",
       "uni-helper.uni-ui-snippets-vscode"
