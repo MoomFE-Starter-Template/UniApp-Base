@@ -54,7 +54,6 @@ export default defineConfig({
     // 属性模式
     presetAttributify({
       prefix: 'un:',
-      prefixedOnly: true,
     }),
     // 图标预设
     presetIcons(),
