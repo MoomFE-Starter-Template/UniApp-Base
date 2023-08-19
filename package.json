@@ -51,10 +51,12 @@
     "@dcloudio/uni-h5": "3.0.0-3081220230817001",
     "@dcloudio/uni-mp-weixin": "3.0.0-3081220230817001",
     "@dcloudio/uni-ui": "^1.4.28",
+    "@mixte/use": "^1.0.0",
     "@moomfe/small-utils": "^5.3.2",
     "@vueuse/core": "^10.3.0",
     "@vueuse/math": "^10.3.0",
     "lodash-es": "^4.17.21",
+    "mixte": "^1.0.0",
     "pinia": "2.0.36",
     "vue": "3.3.4"
   },

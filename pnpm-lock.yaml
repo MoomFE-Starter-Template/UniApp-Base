@@ -23,6 +23,9 @@ dependencies:
   '@dcloudio/uni-ui':
     specifier: ^1.4.28
     version: 1.4.28
+  '@mixte/use':
+    specifier: ^1.0.0
+    version: 1.0.0(vue@3.3.4)
   '@moomfe/small-utils':
     specifier: ^5.3.2
     version: 5.3.2(@vueuse/core@10.3.0)(axios@1.4.0)(vue@3.3.4)
@@ -35,6 +38,9 @@ dependencies:
   lodash-es:
     specifier: ^4.17.21
     version: 4.17.21
+  mixte:
+    specifier: ^1.0.0
+    version: 1.0.0
   pinia:
     specifier: 2.0.36
     version: 2.0.36(typescript@5.1.6)(vue@3.3.4)
@@ -2995,6 +3001,17 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
+
+  /@mixte/use@1.0.0(vue@3.3.4):
+    resolution: {integrity: sha512-85H76MsdlnxsXP7yboheVQxaKGBuV/wtkfT+sNDc6HqtbfXV/To+JkpQ+mPtoCtAkzMOF96x6BbvEyOO1zdyyA==}
+    dependencies:
+      '@vueuse/core': 10.3.0(vue@3.3.4)
+      mixte: 1.0.0
+      vue-demi: 0.14.5(vue@3.3.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
 
   /@moomfe/eslint-config@2.7.2(jest@27.0.4):
     resolution: {integrity: sha512-Uq1X6kIDdc8VJljE+8TDVJVhd59M+lH9GV6ak+09+lO5fwQeodUDl8CxMRp1n4XF55/hiRyQNJ5Heq6jHBBJzQ==}
@@ -6866,6 +6883,10 @@ packages:
     resolution: {integrity: sha512-jMYeqEOGZc1dq7MR8Zu1tj1zmzlvATlvsUb7eFaTYk8LoBVrbgdGUWwVjAmFFNjNdiUaokceGeJaByAa5QYpKw==}
     dev: true
 
+  /mixte@1.0.0:
+    resolution: {integrity: sha512-jrQ6Xm9ye1fmPRIfxU1XfVwj8It2j15HtlexbIZ69zuzWXTPGX9UEF2PLEo5fOWHOqYfoW9mtGzeapvA6cQW5A==}
+    dev: false
+
   /mkdirp@0.5.6:
     resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}
     hasBin: true
@@ -6930,7 +6951,7 @@ packages:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
     dependencies:
       hosted-git-info: 2.8.9
-      resolve: 1.22.3
+      resolve: 1.22.4
       semver: 5.7.1
       validate-npm-package-license: 3.0.4
     dev: true
