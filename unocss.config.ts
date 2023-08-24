@@ -70,6 +70,13 @@ export default defineConfig({
     // 将小程序不支持的类编译成另一个类
     transformerApplet({ enable: isApplet }),
   ],
+  // 移除部分环境不支持的 CSS 选择器
+  preprocess: (matcher) => {
+    // [size~="22"]
+    if (matcher[0] === '[' && matcher[matcher.length - 1] === ']' && matcher.includes('~="'))
+      return '';
+    return matcher;
+  },
   extendTheme: (theme) => {
     // 始终生成一个 UnoCSS 主题样式配置文件, 方便在 JS 中引用
     outputFileSync(
