@@ -6,6 +6,7 @@ import Components from 'unplugin-vue-components/vite';
 import AutoImport from 'unplugin-auto-import/vite';
 import Inspect from 'vite-plugin-inspect';
 import { MixteUseAutoImport } from '@mixte/use/register';
+import { VueDemiPolyfill } from './scripts/plugins/VueDemiPolyfills/vite';
 
 export default defineConfig({
   // 路径别名
@@ -18,6 +19,7 @@ export default defineConfig({
   },
   // 插件
   plugins: [
+    VueDemiPolyfill(),
     // 原子化 CSS 引擎
     Unocss(),
     // 自动导入使用到的组件
