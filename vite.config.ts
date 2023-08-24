@@ -5,6 +5,7 @@ import Unocss from 'unocss/vite';
 import Components from 'unplugin-vue-components/vite';
 import AutoImport from 'unplugin-auto-import/vite';
 import Inspect from 'vite-plugin-inspect';
+import { MixteUseAutoImport } from '@mixte/use/register';
 
 export default defineConfig({
   // 路径别名
@@ -37,6 +38,7 @@ export default defineConfig({
         'uni-app',
         '@vueuse/core',
         '@vueuse/math',
+        MixteUseAutoImport({ useWithVueUseCore: true }),
       ],
       dirs: [
         path.resolve(__dirname, './src/composables'),
