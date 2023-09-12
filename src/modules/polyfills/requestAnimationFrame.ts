@@ -1,7 +1,5 @@
-import { isBrowser } from 'mixte';
-
-export default isBrowser
-  ? window.requestAnimationFrame
+export default typeof requestAnimationFrame !== 'undefined'
+  ? requestAnimationFrame
   : function (callback: FrameRequestCallback) {
     return setTimeout(() => {
       callback(Date.now());
