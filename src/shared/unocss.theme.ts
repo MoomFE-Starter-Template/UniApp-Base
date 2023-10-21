@@ -1316,6 +1316,9 @@ export const containers = {
   "7xl": "(min-width: 80rem)",
   prose: "(min-width: 65ch)"
 };
+export const zIndex = {
+  auto: "auto"
+};
 export const aria = {
   busy: "busy=\"true\"",
   checked: "checked=\"true\"",
@@ -1589,6 +1592,7 @@ export default {
   ringWidth,
   preflightBase,
   containers,
+  zIndex,
   aria,
   animation,
   media,
