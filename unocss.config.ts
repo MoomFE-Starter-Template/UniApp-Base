@@ -1,11 +1,33 @@
+import process from 'node:process';
 import { resolve } from 'node:path';
+import type { Preset, SourceCodeTransformer } from 'unocss';
 import { defineConfig, presetAttributify, presetIcons, transformerDirectives, transformerVariantGroup } from 'unocss';
-import { presetApplet, presetRemRpx, transformerApplet, transformerAttributify } from 'unocss-applet';
+import { presetApplet, presetRemRpx, transformerAttributify } from 'unocss-applet';
 import { presetExtra } from 'unocss-preset-extra';
 import { outputFileSync } from 'fs-extra';
 import { dataToEsm } from '@rollup/pluginutils';
 
-const isApplet = !!process.env?.UNI_PLATFORM?.startsWith('mp');
+const isApplet = process.env?.UNI_PLATFORM?.startsWith('mp') ?? false;
+
+const presets: Preset[] = [];
+const transformers: SourceCodeTransformer[] = [];
+
+if (isApplet) {
+  // 默认预设, 和 Tailwind 类似
+  presets.push(presetApplet({ variablePrefix: 'un:' }));
+  // 将 rem 单位转为 rpx
+  presets.push(presetRemRpx());
+  // 为小程序启用属性模式
+  transformers.push(transformerAttributify({ prefix: 'un:', ignoreAttributes: ['block'] }));
+}
+else {
+  // 默认预设, 和 Tailwind 类似
+  presets.push(presetApplet({ variablePrefix: 'un:' }));
+  // 属性模式
+  presets.push(presetAttributify({ prefix: 'un:' }));
+  // 将 rpx 单位转为 rem
+  presets.push(presetRemRpx({ mode: 'rpx2rem' }));
+}
 
 export default defineConfig({
   theme: {
@@ -47,28 +69,18 @@ export default defineConfig({
     },
   },
   presets: [
-    // 默认预设, 和 Tailwind 类似
-    presetApplet({ enable: isApplet }),
-    // 将 rem 单位转为 rpx
-    presetRemRpx({ enable: isApplet }),
-    // 属性模式
-    presetAttributify({
-      prefix: 'un:',
-    }),
+    ...presets,
     // 图标预设
     presetIcons(),
     // 类名简写及额外一些样式预设
     presetExtra(),
   ],
   transformers: [
+    ...transformers,
     // 在 CSS 中使用 @apply 指令
     transformerDirectives(),
     // 变体组功能
     transformerVariantGroup(),
-    // 为小程序启用属性模式
-    transformerAttributify({ enable: isApplet }),
-    // 将小程序不支持的类编译成另一个类
-    transformerApplet({ enable: isApplet }),
   ],
   // 移除部分环境不支持的 CSS 选择器
   preprocess: (matcher) => {
