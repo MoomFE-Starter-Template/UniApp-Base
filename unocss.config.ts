@@ -69,18 +69,20 @@ export default defineConfig({
     },
   },
   presets: [
-    ...presets,
     // 图标预设
     presetIcons(),
     // 类名简写及额外一些样式预设
     presetExtra(),
+    // 在 UniApp 中使用 Unocss, 兼容不支持的语法
+    ...presets,
   ],
   transformers: [
-    ...transformers,
     // 在 CSS 中使用 @apply 指令
     transformerDirectives(),
     // 变体组功能
     transformerVariantGroup(),
+    // 在 UniApp 中使用 Unocss, 兼容不支持的语法
+    ...transformers,
   ],
   extendTheme: (theme) => {
     // 始终生成一个 UnoCSS 主题样式配置文件, 方便在 JS 中引用
