@@ -52,6 +52,7 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-alpha-4000020231227002",
     "@dcloudio/uni-ui": "^1.4.28",
     "@mixte/use": "^1.7.0",
+    "@unocss-applet/reset": "^0.7.8",
     "@vueuse/core": "^10.7.1",
     "@vueuse/math": "^10.7.1",
     "lodash-es": "^4.17.21",

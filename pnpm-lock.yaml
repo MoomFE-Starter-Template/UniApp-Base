@@ -26,6 +26,9 @@ dependencies:
   '@mixte/use':
     specifier: ^1.7.0
     version: 1.7.0(vue@3.2.47)
+  '@unocss-applet/reset':
+    specifier: ^0.7.8
+    version: 0.7.8
   '@vueuse/core':
     specifier: ^10.7.1
     version: 10.7.1(vue@3.2.47)
@@ -3660,6 +3663,10 @@ packages:
   /@unocss-applet/preset-rem-rpx@0.7.8:
     resolution: {integrity: sha512-H+7CbzfNOglGlTW0qurlpfPdSsaLkxwG4qSyxufaMCX6T26Mss6Xy9ENIaGps1m0Sk4NXJYO01h9yWGzaeCZXg==}
     dev: true
+
+  /@unocss-applet/reset@0.7.8:
+    resolution: {integrity: sha512-IstKDdHMQI29gNSw/MlvvrYZZ7szsxM9TJ+UDXDJCLnEGlZFLKdV2ppKiUQyZnI0s3nBFn4wSOdLK5VmbBt12w==}
+    dev: false
 
   /@unocss-applet/transformer-applet@0.5.5:
     resolution: {integrity: sha512-GDzZt0S+Jbr7yiD+cmkIQdnEroAzSiCPajXaTWbmkk8dio+7dW9cWPEGaFKa3laJI6yxDR3jJX44m82LhHdEpg==}
