@@ -1,1 +1,8 @@
 @import url("@unocss-applet/reset/uni-app/tailwind-compat.css");
+
+// 根节点全屏
+.root-screen{
+  width: 100vw;
+  height: calc(100vh - var(--window-top) - var(--window-bottom) - var(--status-bar-height));
+  margin-top: var(--status-bar-height);
+}
