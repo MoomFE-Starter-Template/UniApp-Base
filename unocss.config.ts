@@ -1,7 +1,7 @@
 import process from 'node:process';
 import { resolve } from 'node:path';
 import type { Preset, SourceCodeTransformer } from 'unocss';
-import { defineConfig, presetAttributify, presetIcons, transformerDirectives, transformerVariantGroup } from 'unocss';
+import { defineConfig, presetAttributify, presetIcons, presetUno, transformerDirectives, transformerVariantGroup } from 'unocss';
 import { presetApplet, presetRemRpx, transformerAttributify } from 'unocss-applet';
 import { presetExtra } from 'unocss-preset-extra';
 import { outputFileSync } from 'fs-extra';
@@ -22,7 +22,7 @@ if (isApplet) {
 }
 else {
   // 默认预设, 和 Tailwind 类似
-  presets.push(presetApplet({ variablePrefix: 'un:' }));
+  presets.push(presetUno());
   // 属性模式
   presets.push(presetAttributify({ prefix: 'un:' }));
   // 将 rpx 单位转为 rem
