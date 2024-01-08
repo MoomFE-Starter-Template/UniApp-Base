@@ -49,6 +49,7 @@
   - [uni-app-schemas](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-schemas-vscode) - 为 `pages.json` 和 `manifest.json` 等文件提供代码提示
   - [uni-app-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-snippets-vscode) - 提供 uni-app 的条件编译及基础组件代码补全等功能
   - [uni-ui-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode) - 提供 uni-ui 组件代码补全功能
+  - [uni-highlight](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-highlight-vscode) - 提供 uni-app - 条件编译语法高亮支持
 
 <br>
 
