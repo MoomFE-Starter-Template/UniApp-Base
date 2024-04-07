@@ -11,7 +11,12 @@
     }
   ],
   "ignoreDeps": [
+    // Uniapp 支持的 Vue 版本
     "vue",
-    "pinia"
+    "pinia",
+
+    // 使用了 pnpm 打补丁的包
+    "vue-demi",
+    "@vueuse/*"
   ]
 }
