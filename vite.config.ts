@@ -7,7 +7,6 @@ import AutoImport from 'unplugin-auto-import/vite';
 import Inspect from 'vite-plugin-inspect';
 import Inject from '@rollup/plugin-inject';
 import { MixteUseAutoImport } from '@mixte/use/register';
-import { VueDemiPolyfill } from './scripts/plugins/VueDemiPolyfills/vite';
 
 export default defineConfig({
   // 路径别名
@@ -20,7 +19,6 @@ export default defineConfig({
   },
   // 插件
   plugins: [
-    VueDemiPolyfill(),
     Inject({
       requestAnimationFrame: resolve(__dirname, './src/modules/polyfills/requestAnimationFrame.ts'),
     }),
