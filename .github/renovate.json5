@@ -17,6 +17,10 @@
 
     // 使用了 pnpm 打补丁的包
     "vue-demi",
-    "@vueuse/*"
+    "@vueuse/*",
+
+    // v0.59.0 起强制使用 ESM, 但是 @dcloudio/* 的包还不支持 ESM
+    // 升级会导致 vite 启动失败
+    "unocss"
   ]
 }
