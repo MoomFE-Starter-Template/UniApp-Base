@@ -57,18 +57,6 @@
     }
   ],
   "settings": {
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false,
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "never",
-      "source.fixAll.eslint": "explicit",
-      "source.organizeImports": "never"
-    },
-    "editor.guides.bracketPairs": "active",
-    "editor.renderWhitespace": "boundary",
-    "editor.accessibilitySupport": "off",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "breadcrumbs.enabled": false,
     "files.exclude": {
       "*.code-workspace": true,
       "node_modules": true,
@@ -87,50 +75,5 @@
       "src/utils": true,
       "src/workers": true
     },
-    "files.associations": {
-      "pages.json": "jsonc",
-      "manifest.json": "jsonc"
-    },
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "prettier.enable": false,
-    "i18n-ally.enabledFrameworks": ["vue"],
-    "i18n-ally.displayLanguage": "zh-CN",
-    "i18n-ally.localesPaths": [
-      "locales",
-      "../../locales"
-    ],
-    "eslint.quiet": true,
-    "eslint.validate": [
-      "javascript",
-      "typescript",
-      "javascriptreact",
-      "typescriptreact",
-      "vue",
-      "html",
-      "markdown",
-      "json",
-      "jsonc",
-      "json5"
-    ],
-    "unocss.autocomplete.matchType": "fuzzy",
-    "unocss.remToPxPreview": true
-  },
-  "extensions": {
-    "recommendations": [
-      "vue.volar",
-      "vue.vscode-typescript-vue-plugin",
-      "dbaeumer.vscode-eslint",
-      "antfu.iconify",
-      "antfu.unocss",
-      "csstools.postcss",
-      "syler.sass-indented",
-      "uni-helper.uni-app-schemas-vscode",
-      "uni-helper.uni-app-snippets-vscode",
-      "uni-helper.uni-ui-snippets-vscode",
-      "uni-helper.uni-highlight-vscode"
-    ],
-    "unwantedRecommendations": [
-      "octref.vetur"
-    ]
   }
 }

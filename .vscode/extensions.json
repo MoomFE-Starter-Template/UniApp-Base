@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "vue.volar",
+    "dbaeumer.vscode-eslint",
+    "antfu.iconify",
+    "antfu.unocss",
+    "csstools.postcss",
+    "syler.sass-indented",
+    "uni-helper.uni-app-schemas-vscode",
+    "uni-helper.uni-app-snippets-vscode",
+    "uni-helper.uni-ui-snippets-vscode",
+    "uni-helper.uni-highlight-vscode"
+  ],
+  "unwantedRecommendations": [
+    "octref.vetur",
+    "vue.vscode-typescript-vue-plugin"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "boundary",
+  "editor.accessibilitySupport": "off",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "breadcrumbs.enabled": false,
+  "files.associations": {
+    "pages.json": "jsonc",
+    "manifest.json": "jsonc"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.enable": false,
+  "i18n-ally.enabledFrameworks": ["vue"],
+  "i18n-ally.displayLanguage": "zh-CN",
+  "i18n-ally.localesPaths": [
+    "locales",
+    "../../locales"
+  ],
+  "eslint.quiet": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5"
+  ],
+  "unocss.autocomplete.matchType": "fuzzy",
+  "unocss.remToPxPreview": true
+}
