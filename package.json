@@ -67,7 +67,7 @@
     "@dcloudio/uni-cli-shared": "3.0.0-alpha-4010120240403003",
     "@dcloudio/uni-stacktracey": "3.0.0-alpha-4010120240403003",
     "@dcloudio/vite-plugin-uni": "3.0.0-alpha-4010120240403003",
-    "@iconify/json": "^2.2.197",
+    "@iconify/json": "^2.2.198",
     "@moomfe/eslint-config": "^2.7.2",
     "@rollup/plugin-inject": "^5.0.5",
     "@rollup/pluginutils": "^5.1.0",
