@@ -5,7 +5,7 @@
   ],
   "packageRules": [
     {
-      "groupName": "dcloudio updates",
+      "groupName": "dcloudio",
       "matchPackagePrefixes": ["@dcloudio"],
       "excludePackageNames": ["@dcloudio/types"]
     }
