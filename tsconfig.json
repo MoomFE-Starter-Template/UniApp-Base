@@ -1,23 +1,20 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "rootDir": ".",
-    "outDir": "dist",
     "target": "ESNext",
-    "module": "ESNext",
-    "lib": ["DOM", "ESNext"],
-    "strict": true,
-    "strictNullChecks": true,
-    "allowJs": true,
-    "esModuleInterop": true,
     "jsx": "preserve",
     "jsxFactory": "h",
     "jsxFragmentFactory": "Fragment",
-    "skipLibCheck": true,
+    "lib": ["DOM", "ESNext"],
+    "baseUrl": ".",
+    "rootDir": ".",
+    "module": "ESNext",
     "moduleResolution": "Node",
+    "paths": {
+      "~/*": ["./src/*"],
+      "@/*": ["./src/*"],
+      "@@/*": ["./*"]
+    },
     "resolveJsonModule": true,
-    "noUnusedLocals": true,
-    "forceConsistentCasingInFileNames": true,
     "types": [
       "vite/client",
       "@dcloudio/types",
@@ -25,11 +22,14 @@
       "@uni-helper/uni-ui-types",
       "miniprogram-api-typings"
     ],
-    "paths": {
-      "~/*": ["./src/*"],
-      "@/*": ["./src/*"],
-      "@@/*": ["./*"]
-    }
+    "allowJs": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
   },
   "vueCompilerOptions": {
     "experimentalRuntimeMode": "runtime-uni-app",

@@ -18,7 +18,7 @@
 
 <script lang="ts" setup>
   interface Props {
-    name: string
+    name: string;
   }
 
   const props = defineProps<Props>();

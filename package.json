@@ -41,7 +41,8 @@
     "build:quickapp-webview": "pnpm install && uni build -p quickapp-webview",
     "build:quickapp-webview-huawei": "pnpm install && uni build -p quickapp-webview-huawei",
     "build:quickapp-webview-union": "pnpm install && uni build -p quickapp-webview-union",
-    "lint": "eslint . --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "up": "npx taze latest -w -i --exclude /@dcloudio/ && pnpm update @dcloudio/types @dcloudio/uni-app@vue3 @dcloudio/uni-app-plus@vue3 @dcloudio/uni-components@vue3 @dcloudio/uni-h5@vue3 @dcloudio/uni-mp-weixin@vue3 @dcloudio/uni-automator@vue3 @dcloudio/uni-cli-shared@vue3 @dcloudio/uni-stacktracey@vue3 @dcloudio/vite-plugin-uni@vue3"
   },
   "dependencies": {
@@ -68,7 +69,7 @@
     "@dcloudio/uni-stacktracey": "3.0.0-alpha-4010120240403003",
     "@dcloudio/vite-plugin-uni": "3.0.0-alpha-4010120240403003",
     "@iconify/json": "^2.2.198",
-    "@moomfe/eslint-config": "^2.7.2",
+    "@moomfe/eslint-config": "^3.0.0-beta.2",
     "@rollup/plugin-inject": "^5.0.5",
     "@rollup/pluginutils": "^5.1.0",
     "@types/fs-extra": "^11.0.4",
