@@ -31,17 +31,17 @@
 
   "eslint.quiet": true,
 
+  "unocss.autocomplete.matchType": "fuzzy",
+  "unocss.remToPxPreview": true,
+
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.guides.bracketPairs": "active",
   "editor.renderWhitespace": "boundary",
-  "editor.accessibilitySupport": "off",
   "editor.cursorSmoothCaretAnimation": "on",
-  "breadcrumbs.enabled": false,
+
   "files.associations": {
     "pages.json": "jsonc",
     "manifest.json": "jsonc"
-  },
-  "unocss.autocomplete.matchType": "fuzzy",
-  "unocss.remToPxPreview": true
+  }
 }

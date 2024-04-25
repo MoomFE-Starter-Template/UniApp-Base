@@ -87,6 +87,16 @@
       "graphql"
     ],
 
+    "eslint.quiet": true,
+
+    "unocss.autocomplete.matchType": "fuzzy",
+    "unocss.remToPxPreview": true,
+
+    "files.associations": {
+      "pages.json": "jsonc",
+      "manifest.json": "jsonc"
+    },
+
     "files.exclude": {
       "*.code-workspace": true,
       "node_modules": true,
