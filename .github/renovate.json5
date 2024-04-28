@@ -3,13 +3,6 @@
   "extends": [
     "github>moomfe/renovate-config"
   ],
-  "packageRules": [
-    {
-      "groupName": "dcloudio",
-      "matchPackagePrefixes": ["@dcloudio"],
-      "excludePackageNames": ["@dcloudio/types"]
-    }
-  ],
   "ignoreDeps": [
     // Uniapp 支持的 Vue 版本
     "vue",
