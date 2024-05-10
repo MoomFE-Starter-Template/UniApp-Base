@@ -1,13 +1,3 @@
-diff --git a/lib/index.mjs b/lib/index.mjs
-index be3a96d7433916d3a70f3d308cb4c1685883e4f8..a41c90238ec64e51c6f2035ab09ea893f0ba767a 100644
---- a/lib/index.mjs
-+++ b/lib/index.mjs
-@@ -32,3 +32,5 @@ export {
-   isVue3,
-   install,
- }
-+
-+export const TransitionGroup = {};
 diff --git a/lib/v3/index.mjs b/lib/v3/index.mjs
 index be3a96d7433916d3a70f3d308cb4c1685883e4f8..a41c90238ec64e51c6f2035ab09ea893f0ba767a 100644
 --- a/lib/v3/index.mjs
