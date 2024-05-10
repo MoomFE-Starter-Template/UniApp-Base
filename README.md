@@ -29,6 +29,7 @@
 ### 组件库
   - [uni-ui](https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html)
   - [wot-design-uni](https://wot-design-uni.pages.dev/)
+  - [nutui-uniapp](https://github.com/nutui-uniapp/nutui-uniapp)
 
 ### 插件
   - [Pinia](https://pinia.vuejs.org) - 直接的, 类型安全的, 使用 Composition API 的轻便灵活的 Vue 状态管理

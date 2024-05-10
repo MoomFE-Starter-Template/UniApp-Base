@@ -14,7 +14,9 @@
     "autoscan": true,
     "custom": {
       "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
-      "^wd-(.*)": "wot-design-uni/components/wd-$1/wd-$1.vue"
+      "^wd-(.*)": "wot-design-uni/components/wd-$1/wd-$1.vue",
+      "^nut-(.*)?-(.*)": "nutui-uniapp/components/$1$2/$1$2.vue",
+      "^nut-(.*)": "nutui-uniapp/components/$1/$1.vue"
     }
   }
 }

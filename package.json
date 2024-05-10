@@ -59,6 +59,7 @@
     "@vueuse/math": "^10.9.0",
     "lodash-es": "^4.17.21",
     "mixte": "^1.11.0",
+    "nutui-uniapp": "^1.7.10",
     "pinia": "2.1.7",
     "vue": "3.4.21",
     "vue-demi": "^0.14.7",
