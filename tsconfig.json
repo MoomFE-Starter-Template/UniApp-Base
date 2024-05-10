@@ -31,9 +31,8 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
-  "VueCompilerOptions": {
-    "experimentalRuntimeMode": "runtime-uni-app",
-    "nativeTags": ["block", "component", "template", "slot"]
+  "vueCompilerOptions": {
+    "plugins": ["@uni-helper/uni-app-types/volar-plugin"]
   },
   "exclude": [
     "node_modules",
