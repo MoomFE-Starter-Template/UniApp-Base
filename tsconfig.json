@@ -31,7 +31,7 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
-  "vueCompilerOptions": {
+  "VueCompilerOptions": {
     "experimentalRuntimeMode": "runtime-uni-app",
     "nativeTags": ["block", "component", "template", "slot"]
   },
