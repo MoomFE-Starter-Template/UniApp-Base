@@ -979,22 +979,7 @@ export const colors = {
     "900": "#0f172a",
     "950": "#020617",
     DEFAULT: "#94a3b8"
-  },
-  primary: "#2080f0",
-  "primary-hover": "#4098fc",
-  "primary-active": "#1060c9",
-  info: "#909399",
-  "info-hover": "#a6a9ad",
-  "info-active": "#82848a",
-  success: "#18a058",
-  "success-hover": "#36ad6a",
-  "success-active": "#0c7a43",
-  warning: "#f0a020",
-  "warning-hover": "#fcb040",
-  "warning-active": "#c97c10",
-  error: "#d03050",
-  "error-hover": "#de576d",
-  "error-active": "#ab1f3f"
+  }
 };
 export const fontFamily = {
   sans: "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
