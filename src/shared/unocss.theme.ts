@@ -1247,7 +1247,7 @@ export const duration = {
   colors: "300ms"
 };
 export const ringWidth = {
-  DEFAULT: "1px",
+  DEFAULT: "3px",
   none: "0"
 };
 export const preflightBase = {

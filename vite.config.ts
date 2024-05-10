@@ -1,5 +1,7 @@
-import { resolve } from 'node:path';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
+import { isESModule } from 'mixte';
 import Uni from '@dcloudio/vite-plugin-uni';
 import Unocss from 'unocss/vite';
 import Components from 'unplugin-vue-components/vite';
@@ -7,6 +9,8 @@ import AutoImport from 'unplugin-auto-import/vite';
 import Inspect from 'vite-plugin-inspect';
 import Inject from '@rollup/plugin-inject';
 import { MixteUseAutoImport } from '@mixte/use/register';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   // 路径别名
@@ -54,7 +58,7 @@ export default defineConfig({
       },
     }),
     // uni-app
-    Uni(),
+    isESModule(Uni) ? Uni.default() : Uni(),
     // 插件调试
     Inspect(),
   ],

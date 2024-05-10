@@ -1,11 +1,14 @@
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import process from 'node:process';
-import { resolve } from 'node:path';
 import type { Preset, SourceCodeTransformer } from 'unocss';
 import { defineConfig, presetAttributify, presetIcons, presetUno, transformerDirectives, transformerVariantGroup } from 'unocss';
 import { presetApplet, presetRemRpx, transformerAttributify } from 'unocss-applet';
 import { presetExtra } from 'unocss-preset-extra';
 import { outputFileSync } from 'fs-extra';
 import { dataToEsm } from '@rollup/pluginutils';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const isApplet = process.env?.UNI_PLATFORM?.startsWith('mp') ?? false;
 
