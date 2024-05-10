@@ -4,7 +4,9 @@ import { defineConfig } from 'vite';
 import { isESModule } from 'mixte';
 import Uni from '@dcloudio/vite-plugin-uni';
 import Unocss from 'unocss/vite';
-import Components from 'unplugin-vue-components/vite';
+import Components from '@uni-helper/vite-plugin-uni-components';
+import { UniUIResolver, WotResolver } from '@uni-helper/vite-plugin-uni-components/resolvers';
+import { NutResolver } from 'nutui-uniapp';
 import AutoImport from 'unplugin-auto-import/vite';
 import Inspect from 'vite-plugin-inspect';
 import Inject from '@rollup/plugin-inject';
@@ -35,6 +37,11 @@ export default defineConfig({
         resolve(__dirname, './src/layouts'),
         resolve(__dirname, './src/components'),
         resolve(__dirname, './src/components-private'),
+      ],
+      resolvers: [
+        UniUIResolver(),
+        WotResolver(),
+        NutResolver(),
       ],
     }),
     // API 自动加载

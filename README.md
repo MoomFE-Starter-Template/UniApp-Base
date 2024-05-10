@@ -6,7 +6,7 @@
 ## 特性
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io)  优先 - 就是快！
-- 📲 [组件自动加载](https://github.com/antfu/unplugin-vue-components)
+- 📲 [组件自动加载](https://github.com/uni-helper/vite-plugin-uni-components)
 - 📥 [API 自动加载](https://github.com/antfu/unplugin-auto-import) - 直接使用 Composition API 无需引入
 - 🎨 [UnoCSS](https://github.com/unocss/unocss) - 高性能且极具灵活性的原子化 CSS 引擎
 - 😃 [各种图标集为你所用](https://github.com/iconify/icon-sets) - 150+ 图标集, 200000+ 图标为你所用, 从不妥协
@@ -33,7 +33,7 @@
 
 ### 插件
   - [Pinia](https://pinia.vuejs.org) - 直接的, 类型安全的, 使用 Composition API 的轻便灵活的 Vue 状态管理
-  - [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) - 自动加载组件
+  - [vite-plugin-uni-components](https://github.com/uni-helper/vite-plugin-uni-components) - 自动加载组件
   - [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) - 直接使用 Composition API 等，无需导入
   - [VueUse](https://github.com/antfu/vueuse) - 实用的 Composition API 工具合集
 

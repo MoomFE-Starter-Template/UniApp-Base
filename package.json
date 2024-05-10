@@ -54,6 +54,7 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-4010520240507001",
     "@dcloudio/uni-ui": "^1.5.5",
     "@mixte/use": "^1.11.0",
+    "@uni-helper/vite-plugin-uni-components": "^0.0.9",
     "@unocss-applet/reset": "^0.8.1",
     "@vueuse/core": "^10.9.0",
     "@vueuse/math": "^10.9.0",
@@ -91,7 +92,6 @@
     "unocss-applet": "^0.8.1",
     "unocss-preset-extra": "^0.5.3",
     "unplugin-auto-import": "^0.17.5",
-    "unplugin-vue-components": "^0.27.0",
     "vite": "5.2.11",
     "vite-plugin-inspect": "^0.8.4"
   },
