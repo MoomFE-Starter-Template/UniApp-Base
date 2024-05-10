@@ -20,7 +20,8 @@
       "@dcloudio/types",
       "@uni-helper/uni-app-types",
       "@uni-helper/uni-ui-types",
-      "miniprogram-api-typings"
+      "miniprogram-api-typings",
+      "wot-design-uni/global.d.ts"
     ],
     "allowJs": true,
     "strict": true,
