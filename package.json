@@ -64,7 +64,7 @@
     "pinia": "2.1.7",
     "vue": "3.4.21",
     "vue-demi": "^0.14.7",
-    "wot-design-uni": "^1.2.21"
+    "wot-design-uni": "^1.2.22"
   },
   "devDependencies": {
     "@dcloudio/types": "^3.4.8",
@@ -72,7 +72,7 @@
     "@dcloudio/uni-cli-shared": "3.0.0-4010520240507001",
     "@dcloudio/uni-stacktracey": "3.0.0-4010520240507001",
     "@dcloudio/vite-plugin-uni": "3.0.0-4010520240507001",
-    "@iconify/json": "^2.2.212",
+    "@iconify/json": "^2.2.213",
     "@moomfe/eslint-config": "^3.0.0",
     "@rollup/plugin-inject": "^5.0.5",
     "@rollup/pluginutils": "^5.1.0",
