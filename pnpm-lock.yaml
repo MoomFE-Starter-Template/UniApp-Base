@@ -68,8 +68,8 @@ importers:
         specifier: ^0.14.7
         version: 0.14.7(patch_hash=zmveyaths3nlkkysqphqr35ym4)(vue@3.4.21(typescript@5.4.5))
       wot-design-uni:
-        specifier: ^1.2.21
-        version: 1.2.21(vue@3.4.21(typescript@5.4.5))
+        specifier: ^1.2.22
+        version: 1.2.22(vue@3.4.21(typescript@5.4.5))
     devDependencies:
       '@dcloudio/types':
         specifier: ^3.4.8
@@ -87,8 +87,8 @@ importers:
         specifier: 3.0.0-4010520240507001
         version: 3.0.0-4010520240507001(@vueuse/core@10.9.0(patch_hash=xyqotefgbknmpulztldgkw4trq)(vue@3.4.21(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.14.1)(vite@5.2.11(@types/node@20.12.12)(sass@1.77.2)(terser@5.26.0))(vue@3.4.21(typescript@5.4.5))
       '@iconify/json':
-        specifier: ^2.2.212
-        version: 2.2.212
+        specifier: ^2.2.213
+        version: 2.2.213
       '@moomfe/eslint-config':
         specifier: ^3.0.0
         version: 3.0.0(@vue/compiler-sfc@3.4.27)
@@ -1145,8 +1145,8 @@ packages:
     resolution: {integrity: sha512-d2CGZR2o7fS6sWB7DG/3a95bGKQyHMACZ5aW8qGkkqQpUoZV6C0X7Pc7l4ZNMZkfNBf4VWNe9E1jRsf0G146Ew==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.212':
-    resolution: {integrity: sha512-d1IXjpbSwk8V3C9D+mruRTJRPqZZpCnOWh9zyG/Zc5zJmPDLBEHNTKz+ZmeiJQ6LdzgjwLJai1WgFvt1HWVIPw==}
+  '@iconify/json@2.2.213':
+    resolution: {integrity: sha512-5tcEn+ZDoWlBXmlJidYjMsJyFXhXuVscbg7PRpaon86GqrDlwW/cl8mR682C06Oq4AfeypmfVI18YTnczwdqxA==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -2927,6 +2927,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   global@4.4.0:
     resolution: {integrity: sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==}
@@ -3066,6 +3067,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -4069,6 +4071,7 @@ packages:
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rollup@4.14.1:
@@ -4639,8 +4642,8 @@ packages:
     engines: {node: '>= 8'}
     hasBin: true
 
-  wot-design-uni@1.2.21:
-    resolution: {integrity: sha512-BKRWJx7+PHVn1ylKjSlkhusFdhY4xYqwFU1RvFp00JPRP6pxxLtZoTFzh8Ky6z1r48FqDcLPpCEkRNz0IGdj9g==}
+  wot-design-uni@1.2.22:
+    resolution: {integrity: sha512-sAM9+SyB94wkJXjtOOT4qDj6FClxlgcReSlLcWwZDKHzDQxnuvQfIX9AZjr80gpEL4vki9GthUl3pYGRVtyZoQ==}
     engines: {HBuilderX: ^3.8.7}
     peerDependencies:
       vue: '>=3.2.47'
@@ -6303,7 +6306,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.3.0': {}
 
-  '@iconify/json@2.2.212':
+  '@iconify/json@2.2.213':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
@@ -10486,7 +10489,7 @@ snapshots:
     dependencies:
       isexe: 2.0.0
 
-  wot-design-uni@1.2.21(vue@3.4.21(typescript@5.4.5)):
+  wot-design-uni@1.2.22(vue@3.4.21(typescript@5.4.5)):
     dependencies:
       vue: 3.4.21(typescript@5.4.5)
 
