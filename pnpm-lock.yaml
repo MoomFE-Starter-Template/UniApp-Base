@@ -35,8 +35,8 @@ importers:
         specifier: ^1.5.5
         version: 1.5.5
       '@mixte/use':
-        specifier: ^1.12.0
-        version: 1.12.0(vue@3.4.21(typescript@5.4.5))
+        specifier: ^1.13.1
+        version: 1.13.1(vue@3.4.21(typescript@5.4.5))
       '@uni-helper/vite-plugin-uni-components':
         specifier: ^0.0.9
         version: 0.0.9(rollup@4.14.1)
@@ -53,8 +53,8 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       mixte:
-        specifier: ^1.12.0
-        version: 1.12.0
+        specifier: ^1.13.1
+        version: 1.13.1
       nutui-uniapp:
         specifier: ^1.7.10
         version: 1.7.10(@uni-helper/uni-app-types@0.5.13(typescript@5.4.5))(vue@3.4.21(typescript@5.4.5))
@@ -1431,8 +1431,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@mixte/use@1.12.0':
-    resolution: {integrity: sha512-dwNixp8JqyrgYmc7uQ0PJfi9JBx290o7TqvOVxnPJPERjl+LPFnN6/oEhRl28nMKM1r1Q85DT9dE9KCmbw7eoA==}
+  '@mixte/use@1.13.1':
+    resolution: {integrity: sha512-TdQBTsEq1tq5fXjBp0l8+hKNJFkGeBeYWwOe/p2dRieLRhv08Oml5MCiJUNlwVLKl7JRU3bC0ImT86faGawPjg==}
 
   '@moomfe/eslint-config@3.0.0':
     resolution: {integrity: sha512-kc04auvNIrERVbb6d1BRm6b+VReaktFPMGJdXw6KkqVjl3ZKmDglR061SRCtDRTnAxi7FyYMBPXuwYB6JHjoFQ==}
@@ -3596,8 +3596,8 @@ packages:
   miniprogram-api-typings@3.12.2:
     resolution: {integrity: sha512-OJB2uVAfhycX4teG/zEVpoThushQqLOx946XACDpVc6OQydiJWjn7djVzvNCbv0VOA7sbHGPQp/RkXD9vMCDEw==}
 
-  mixte@1.12.0:
-    resolution: {integrity: sha512-exFuLe8CMZh4rv/GBlHmWv6xQlI2yvV1Ia5qLtz22EzBktW8bKOY0tYcVQSLv3AYvrEqvMbBQvv2A8ivXwND7Q==}
+  mixte@1.13.1:
+    resolution: {integrity: sha512-UdpuFIgstkE2P6s4wDeFU6CjBeyqdbxZ89JrOP89s0AQ+n45D3y0f02LGpZdfuTPKgl1mOKN96wYz37ifKZiLg==}
 
   mkdirp@0.5.6:
     resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}
@@ -6812,10 +6812,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@mixte/use@1.12.0(vue@3.4.21(typescript@5.4.5))':
+  '@mixte/use@1.13.1(vue@3.4.21(typescript@5.4.5))':
     dependencies:
       '@vueuse/core': 10.9.0(patch_hash=xyqotefgbknmpulztldgkw4trq)(vue@3.4.21(typescript@5.4.5))
-      mixte: 1.12.0
+      mixte: 1.13.1
       vue-demi: 0.14.7(patch_hash=zmveyaths3nlkkysqphqr35ym4)(vue@3.4.21(typescript@5.4.5))
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -9471,7 +9471,7 @@ snapshots:
 
   miniprogram-api-typings@3.12.2: {}
 
-  mixte@1.12.0: {}
+  mixte@1.13.1: {}
 
   mkdirp@0.5.6:
     dependencies:
