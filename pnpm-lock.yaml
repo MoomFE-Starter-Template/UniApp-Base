@@ -126,8 +126,8 @@ importers:
         specifier: ^3.12.2
         version: 3.12.2
       pnpm:
-        specifier: ^9.1.4
-        version: 9.1.4
+        specifier: ^9.2.0
+        version: 9.2.0
       sass:
         specifier: ^1.77.2
         version: 1.77.2
@@ -3871,8 +3871,8 @@ packages:
     resolution: {integrity: sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w==}
     engines: {node: '>=4.0.0'}
 
-  pnpm@9.1.4:
-    resolution: {integrity: sha512-nfnPJ8kXFWRsfWddHJyOQfb86IJG8TGMGqah7RrrPE8DL830umPMacT+bWNCeRdrU1hyfY8sweZbZfQ84vi/sA==}
+  pnpm@9.2.0:
+    resolution: {integrity: sha512-mKgP0RwucJZ0d2IwQQZDKz3cZ9z1S1qMAck/aKLNXgXmghhJUioG+3YoTUGiZg1eM08u47vykYO/LnObHa+ncQ==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -9717,7 +9717,7 @@ snapshots:
 
   pngjs@3.4.0: {}
 
-  pnpm@9.1.4: {}
+  pnpm@9.2.0: {}
 
   postcss-import@14.1.0(postcss@8.4.38):
     dependencies:
