@@ -63,7 +63,7 @@
     "nutui-uniapp": "^1.7.10",
     "pinia": "2.1.7",
     "vue": "3.4.21",
-    "vue-demi": "^0.14.7",
+    "vue-demi": "^0.14.8",
     "wot-design-uni": "^1.2.25"
   },
   "devDependencies": {
@@ -97,8 +97,8 @@
   },
   "pnpm": {
     "patchedDependencies": {
-      "@vueuse/core@10.9.0": "patches/@vueuse__core@10.9.0.patch",
-      "vue-demi@0.14.7": "patches/vue-demi@0.14.7.patch"
+      "@vueuse/core@10.11.0": "patches/@vueuse__core@10.11.0.patch",
+      "vue-demi@0.14.8": "patches/vue-demi@0.14.8.patch"
     }
   }
 }
