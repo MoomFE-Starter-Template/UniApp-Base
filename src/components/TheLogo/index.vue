@@ -14,3 +14,11 @@
     size: 'size-12',
   });
 </script>
+
+<script lang="ts">
+  export default defineComponent({
+    options: {
+      virtualHost: true,
+    },
+  });
+</script>
