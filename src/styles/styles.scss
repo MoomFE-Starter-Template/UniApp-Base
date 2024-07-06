@@ -1,8 +1,11 @@
 @import url("@unocss-applet/reset/uni-app/tailwind-compat.css");
 
-// 根节点全屏
-.root-screen{
-  width: 100vw;
-  height: calc(100vh - var(--window-top) - var(--window-bottom) - var(--status-bar-height));
-  margin-top: var(--status-bar-height);
+
+:root, page{
+  // 修改 Wot Design 主题色
+  --wot-color-theme: #2080F0;
+
+  // 修改 NutUI 主题色
+  --nut-primary-color: #2080F0;
+  --nut-primary-color-end: #4098fc;
 }
