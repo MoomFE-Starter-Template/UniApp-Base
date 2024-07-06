@@ -2,7 +2,15 @@
   // pages 数组中第一项表示应用启动页, 参考：https://uniapp.dcloud.io/collocation/pages
   "pages": [
     { "path": "pages/index" },
-    { "path": "pages/hello/name" }
+    { "path": "pages/hello/name" },
+
+    // 登录页
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    }
   ],
   "globalStyle": {
     "navigationBarTitleText": "Uniapp 项目模板",

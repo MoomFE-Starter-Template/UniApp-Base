@@ -17,6 +17,16 @@
         确定
       </button>
     </view>
+
+    <view class="text-(base red) mt-12">
+      ↓ ------ 示例页 ------ ↓
+    </view>
+
+    <view class="mt-6">
+      <button size="mini" @click="toLogin">
+        登录
+      </button>
+    </view>
   </HomeLayout>
 </template>
 
@@ -26,6 +36,12 @@
   function go() {
     uni.navigateTo({
       url: `/pages/hello/name?name=${name.value}`,
+    });
+  }
+
+  function toLogin() {
+    uni.navigateTo({
+      url: '/pages/login/index',
     });
   }
 </script>
