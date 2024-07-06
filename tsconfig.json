@@ -21,8 +21,8 @@
       "@uni-helper/uni-app-types",
       "@uni-helper/uni-ui-types",
       "miniprogram-api-typings",
-      "wot-design-uni/global.d.ts",
-      "nutui-uniapp/global.d.ts"
+      "wot-design-uni/global",
+      "nutui-uniapp/global"
     ],
     "allowJs": true,
     "strict": true,
