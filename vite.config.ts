@@ -15,6 +15,8 @@ import { MixteUseAutoImport } from '@mixte/use/register';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
+  // 环境变量前缀
+  envPrefix: 'APP_',
   // 路径别名
   resolve: {
     alias: {
