@@ -18,8 +18,8 @@ const transformers: SourceCodeTransformer[] = [];
 if (isApplet) {
   // 默认预设, 和 Tailwind 类似
   presets.push(presetApplet({ variablePrefix: 'un:' }));
-  // 将 rem 单位转为 rpx
-  presets.push(presetRemRpx());
+  // 将 rpx 单位转为 rem
+  presets.push(presetRemRpx({ mode: 'rpx2rem' }));
   // 为小程序启用属性模式
   transformers.push(transformerAttributify({ prefix: 'un:', ignoreAttributes: ['block'] }));
 }
@@ -34,15 +34,6 @@ else {
 
 export default defineConfig({
   theme: {
-    // 断点
-    breakpoints: {
-      'xs': '480px',
-      'sm': '576px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1536px',
-    },
     // 过渡持续时间
     duration: {
       colors: '300ms',

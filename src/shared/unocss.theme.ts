@@ -1052,12 +1052,11 @@ export const fontWeight = {
   black: "900"
 };
 export const breakpoints = {
-  sm: "576px",
+  sm: "640px",
   md: "768px",
   lg: "1024px",
   xl: "1280px",
-  "2xl": "1536px",
-  xs: "480px"
+  "2xl": "1536px"
 };
 export const verticalBreakpoints = {
   sm: "640px",
