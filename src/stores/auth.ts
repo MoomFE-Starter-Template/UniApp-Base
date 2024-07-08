@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 import { accessToken } from '@/shared/env';
-import { type UsernameLoginData, usernameLogin } from '@/apis/auth';
+import { type UsernameLoginData, getUserInfo, usernameLogin } from '@/apis/auth';
 
 export const useAuthStore = defineStore('auth', () => {
   /** 是否登录 */
@@ -15,9 +15,21 @@ export const useAuthStore = defineStore('auth', () => {
     });
   });
 
+  /**
+   * 用户信息
+   */
+  const info = useRequestReactive(() => getUserInfo().then(res => res.data));
+
+  // 登录后获取用户信息
+  wheneverImmediate(isLogin, () => {
+    info.execute();
+  });
+
   return {
     isLogin,
 
     loginByUsername,
+
+    info,
   };
 });
