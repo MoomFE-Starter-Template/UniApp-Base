@@ -4,6 +4,7 @@
       <wd-navbar
         custom-class="[&,&::after]-bg-transparent!"
         fixed placeholder safe-area-inset-top left-arrow
+        @click-left="forceNavigateBack"
       />
     </view>
 
@@ -22,7 +23,13 @@
         </view>
 
         <view mt-8>
-          <wd-button block @click="login()">登录</wd-button>
+          <wd-button
+            block
+            :loading="auth.loginByUsername.isLoading"
+            @click="login()"
+          >
+            登录
+          </wd-button>
         </view>
       </view>
 
@@ -39,6 +46,9 @@
 <script lang="ts" setup>
   import { useMessage } from 'wot-design-uni';
   import UsernameForm from './children/username-form.vue';
+  import { forceNavigateBack } from '@/utils/forceNavigateBack';
+
+  const auth = useAuthStore();
 
   const message = useMessage();
 
@@ -52,12 +62,10 @@
     if (!await formRef.value?.validate()) return;
     if (!await checkAgree()) return;
 
-    try {
-      await formRef.value?.login();
-    }
-    catch (error) {
-      console.error(error);
-    }
+    uni.showLoading();
+    await formRef.value?.login();
+    uni.showToast({ title: '登录成功', icon: 'success' });
+    setTimeout(forceNavigateBack, 1500);
   }
 
   async function checkAgree() {

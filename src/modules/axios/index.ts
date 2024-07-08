@@ -2,6 +2,7 @@ import type { AxiosResponse } from 'axios';
 import axios from 'axios';
 import { createUniAppAxiosAdapter } from '@uni-helper/axios-adapter';
 import type { ResponseData } from '@/types';
+import { accessToken } from '@/shared/env';
 
 axios.defaults.adapter = createUniAppAxiosAdapter();
 
@@ -13,6 +14,10 @@ export const instance = axios.create({
 // 请求拦截器
 instance.interceptors.request.use(
   (config) => {
+    // 添加 Token
+    if (accessToken.value)
+      config.headers.Authorization = `Bearer ${accessToken.value}`;
+
     return config;
   },
   (error) => {

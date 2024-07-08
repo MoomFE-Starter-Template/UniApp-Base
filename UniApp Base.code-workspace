@@ -24,6 +24,10 @@
       "name": "Utils"
     },
     {
+      "path": "src\\apis",
+      "name": "Apis"
+    },
+    {
       "path": "src\\modules",
       "name": "Modules"
     },
@@ -100,6 +104,7 @@
     "files.exclude": {
       "*.code-workspace": true,
       "node_modules": true,
+      "src/apis": true,
       "src/components": true,
       "src/components-private": true,
       "src/composables": true,
