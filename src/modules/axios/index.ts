@@ -51,6 +51,12 @@ instance.interceptors.response.use(
     return response;
   },
   (error) => {
+    uni.hideLoading();
+    uni.showToast({
+      title: error.message ?? '请求失败，请稍后重试',
+      icon: 'none',
+    });
+
     return Promise.reject(error);
   },
 );
