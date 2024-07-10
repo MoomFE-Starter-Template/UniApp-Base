@@ -29,6 +29,9 @@ export default defineConfig({
   plugins: [
     Inject({
       requestAnimationFrame: resolve(__dirname, './src/modules/polyfills/requestAnimationFrame.ts'),
+      exclude: [
+        'node_modules/wot-design-uni/**',
+      ],
     }),
     // 原子化 CSS 引擎
     Unocss(),
