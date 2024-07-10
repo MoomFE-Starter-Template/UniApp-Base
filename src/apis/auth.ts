@@ -30,3 +30,8 @@ export function usernameLogin(data: UsernameLoginData) {
 export function getUserInfo() {
   return request.get<ResponseData<UserInfo>>('/auth/info');
 }
+
+/** 退出登录 */
+export function logout() {
+  return request.post<ResponseData<true>>('/auth/logout');
+}

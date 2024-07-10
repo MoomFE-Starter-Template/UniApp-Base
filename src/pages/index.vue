@@ -23,9 +23,9 @@
     </view>
 
     <view class="mt-6">
-      <button size="mini" @click="toLogin">
-        登录
-      </button>
+      <button size="mini" @click="toLogin">登录</button>
+
+      <UserInfoCard />
     </view>
   </HomeLayout>
 </template>

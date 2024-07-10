@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 import { accessToken } from '@/shared/env';
-import { type UsernameLoginData, getUserInfo, usernameLogin } from '@/apis/auth';
+import { type UsernameLoginData, getUserInfo, logout as toLogout, usernameLogin } from '@/apis/auth';
 
 export const useAuthStore = defineStore('auth', () => {
   /** 是否登录 */
@@ -25,11 +25,21 @@ export const useAuthStore = defineStore('auth', () => {
     info.execute();
   });
 
+  /**
+   * 退出登录
+   */
+  const logout = useRequestReactive((showToast?: boolean) => {
+    return toLogout().finally(() => {
+      accessToken.value = '';
+      showToast && uni.showToast({ title: '退出登录成功', icon: 'none' });
+    });
+  });
+
   return {
     isLogin,
 
     loginByUsername,
-
     info,
+    logout,
   };
 });
