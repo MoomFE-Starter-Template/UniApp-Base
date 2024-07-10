@@ -8,7 +8,7 @@
 
     <view class="mt-6">
       <view class="w-66 max-w-full mx-auto">
-        <uni-easyinput v-model="name" class="text-center!" type="text" placeholder="你的名字是？" :clearable="false" @confirm="go" />
+        <uni-easyinput v-model="name" class="[&_input]-text-center" type="text" placeholder="你的名字是？" :clearable="false" @confirm="go" />
       </view>
     </view>
 
@@ -45,11 +45,3 @@
     });
   }
 </script>
-
-<style lang="scss">
-  /* #ifndef H5 || APP-PLUS */
-    .uni-easyinput ::v-deep input{
-      text-align: center;
-    }
-  /* #endif */
-</style>
