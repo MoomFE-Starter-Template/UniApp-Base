@@ -2,8 +2,7 @@
   <view h-screen flex="~ col">
     <view class="flex-none">
       <wd-navbar
-        custom-class="[&,&::after]-bg-transparent!"
-        fixed placeholder safe-area-inset-top left-arrow
+        fixed placeholder safe-area-inset-top left-arrow :bordered="false"
         @click-left="forceNavigateBack"
       />
     </view>
