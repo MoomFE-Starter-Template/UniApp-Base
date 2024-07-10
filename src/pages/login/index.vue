@@ -49,6 +49,17 @@
 
   const auth = useAuthStore();
 
+  // 进入登录页时, 如果已登录, 更新一下用户信息, 如果没报错说明 Token 没过期, 的确在登录状态, 则返回上一页
+  onShow(() => {
+    if (!auth.isLogin) return;
+
+    uni.showLoading();
+    auth.info.execute().then(() => {
+      uni.showToast({ title: '您已登录', icon: 'none', mask: true });
+      setTimeout(forceNavigateBack, 1500);
+    });
+  });
+
   const message = useMessage();
 
   const type = ref<'username' | 'captcha'>('username');
