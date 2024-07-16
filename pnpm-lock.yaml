@@ -37,6 +37,9 @@ importers:
       '@mixte/use':
         specifier: ^1.13.2
         version: 1.13.2(vue@3.4.21(typescript@5.5.2))
+      '@mixte/validator':
+        specifier: ^2.0.0
+        version: 2.0.0
       '@uni-helper/axios-adapter':
         specifier: ^1.5.2
         version: 1.5.2(axios@1.7.2)
@@ -1688,6 +1691,9 @@ packages:
 
   '@mixte/use@1.13.2':
     resolution: {integrity: sha512-spFYUl1WmqMgXszOm+G4XBt7HAoAvDM7mvLSXBxhEZwhfn8WU9NTWpJTjTNZrdlVZwrZG4+oxFryKPvw8GqNhQ==}
+
+  '@mixte/validator@2.0.0':
+    resolution: {integrity: sha512-Q2cW839XEqUQ6296Aw44G5zgjOYT4B88236MeTZ5yC/6WMGmCY3lTL26aZlm/NiMoyPitJTqR17pHMNf3Vk9FA==}
 
   '@moomfe/eslint-config@3.0.0':
     resolution: {integrity: sha512-kc04auvNIrERVbb6d1BRm6b+VReaktFPMGJdXw6KkqVjl3ZKmDglR061SRCtDRTnAxi7FyYMBPXuwYB6JHjoFQ==}
@@ -7273,6 +7279,8 @@ snapshots:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
+
+  '@mixte/validator@2.0.0': {}
 
   '@moomfe/eslint-config@3.0.0(@vue/compiler-sfc@3.4.27)':
     dependencies:

@@ -43,9 +43,11 @@
 
 <style lang="scss" scoped>
   :deep(.wd-input){
+    // 修改组件 CSS 变量示例
     --wot-input-bg: transparent;
     --wot-input-inner-height-no-border: 43px;
 
+    // 在 CSS 中使用 UnoCSS 样式
     --uno: pr-4;
 
     input{
