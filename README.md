@@ -42,19 +42,18 @@
   - [ESLint](https://eslint.org/) 配置为 [@moomfe/eslint-config](https://github.com/MoomFE/eslint-config), 单引号, 有分号
 
 ### 开发工具
-
-- [TypeScript](https://www.typescriptlang.org)
-- [pnpm](https://pnpm.js.org/) - 快, 节省磁盘空间的包管理器
-- [VS Code](https://code.visualstudio.com/)- IDE
-- VS Code 扩展
-  - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE 支持
-  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - 代码风格检查及修正
-  - [UnoCSS](https://marketplace.visualstudio.com/items?itemName=antfu.unocss) - UnoCSS 样式提示及自动补全
-  - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - 图标内联显示及自动补全
-  - [uni-app-schemas](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-schemas-vscode) - 为 `pages.json` 和 `manifest.json` 等文件提供代码提示
-  - [uni-app-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-snippets-vscode) - 提供 uni-app 的条件编译及基础组件代码补全等功能
-  - [uni-ui-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode) - 提供 uni-ui 组件代码补全功能
-  - [uni-highlight](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-highlight-vscode) - 提供 uni-app - 条件编译语法高亮支持
+  - [TypeScript](https://www.typescriptlang.org)
+  - [pnpm](https://pnpm.js.org/) - 快, 节省磁盘空间的包管理器
+  - [VS Code](https://code.visualstudio.com/)- IDE
+  - VS Code 扩展
+    - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE 支持
+    - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - 代码风格检查及修正
+    - [UnoCSS](https://marketplace.visualstudio.com/items?itemName=antfu.unocss) - UnoCSS 样式提示及自动补全
+    - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - 图标内联显示及自动补全
+    - [uni-app-schemas](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-schemas-vscode) - 为 `pages.json` 和 `manifest.json` 等文件提供代码提示
+    - [uni-app-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-snippets-vscode) - 提供 uni-app 的条件编译及基础组件代码补全等功能
+    - [uni-ui-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode) - 提供 uni-ui 组件代码补全功能
+    - [uni-highlight](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-highlight-vscode) - 提供 uni-app - 条件编译语法高亮支持
 
 <br>
 
