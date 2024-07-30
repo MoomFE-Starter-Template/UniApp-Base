@@ -23,12 +23,12 @@
   - [UnoCSS](https://github.com/unocss/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
 
 ### Icons
-  - [Iconify](https://iconify.design/) - 使用任意的图标集, 使用 [Icônes](https://icones.netlify.app/) 或 [iconify](https://icon-sets.iconify.design/) 查看或搜索图标
+  - [Iconify](https://iconify.design) - 使用任意的图标集, 使用 [Icônes](https://icones.netlify.app) 或 [iconify](https://icon-sets.iconify.design) 查看或搜索图标
     - [用 CSS 的方式使用图标](https://unocss.dev/presets/icons)
 
 ### 组件库
   - [uni-ui](https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html)
-  - [wot-design-uni](https://wot-design-uni.pages.dev/)
+  - [wot-design-uni](https://wot-design-uni.pages.dev)
   - [nutui-uniapp](https://github.com/nutui-uniapp/nutui-uniapp)
 
 ### 插件
@@ -39,12 +39,12 @@
 
 ### 编码风格
   - 使用 Composition API 的 [\<script setup\> SFC 语法](https://github.com/vuejs/rfcs/pull/227)
-  - [ESLint](https://eslint.org/) 配置为 [@moomfe/eslint-config](https://github.com/MoomFE/eslint-config), 单引号, 有分号
+  - [ESLint](https://eslint.org) 配置为 [@moomfe/eslint-config](https://github.com/MoomFE/eslint-config), 单引号, 有分号
 
 ### 开发工具
   - [TypeScript](https://www.typescriptlang.org)
-  - [pnpm](https://pnpm.js.org/) - 快, 节省磁盘空间的包管理器
-  - [VS Code](https://code.visualstudio.com/)- IDE
+  - [pnpm](https://pnpm.js.org) - 快, 节省磁盘空间的包管理器
+  - [VS Code](https://code.visualstudio.com)- IDE
   - VS Code 扩展
     - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE 支持
     - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - 代码风格检查及修正
