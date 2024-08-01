@@ -38,8 +38,8 @@ importers:
         specifier: ^1.13.2
         version: 1.13.2(vue@3.4.21(typescript@5.5.2))
       '@mixte/validator':
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^2.0.2
+        version: 2.0.2
       '@uni-helper/axios-adapter':
         specifier: ^1.5.2
         version: 1.5.2(axios@1.7.2)
@@ -1692,8 +1692,8 @@ packages:
   '@mixte/use@1.13.2':
     resolution: {integrity: sha512-spFYUl1WmqMgXszOm+G4XBt7HAoAvDM7mvLSXBxhEZwhfn8WU9NTWpJTjTNZrdlVZwrZG4+oxFryKPvw8GqNhQ==}
 
-  '@mixte/validator@2.0.0':
-    resolution: {integrity: sha512-Q2cW839XEqUQ6296Aw44G5zgjOYT4B88236MeTZ5yC/6WMGmCY3lTL26aZlm/NiMoyPitJTqR17pHMNf3Vk9FA==}
+  '@mixte/validator@2.0.2':
+    resolution: {integrity: sha512-hQcK0rGEWnjjin8ewEaPG3Nr9poo77mNiIs9UC2fq7c0hZ/Ijpf5ehP7nF6GJMAFpONLIkIFh+j6fNJsxli33A==}
 
   '@moomfe/eslint-config@3.0.0':
     resolution: {integrity: sha512-kc04auvNIrERVbb6d1BRm6b+VReaktFPMGJdXw6KkqVjl3ZKmDglR061SRCtDRTnAxi7FyYMBPXuwYB6JHjoFQ==}
@@ -3231,6 +3231,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   global@4.4.0:
     resolution: {integrity: sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==}
@@ -3370,6 +3371,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -4376,6 +4378,7 @@ packages:
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rollup@4.14.1:
@@ -7280,7 +7283,7 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@mixte/validator@2.0.0': {}
+  '@mixte/validator@2.0.2': {}
 
   '@moomfe/eslint-config@3.0.0(@vue/compiler-sfc@3.4.27)':
     dependencies:
