@@ -28,10 +28,11 @@ instance.interceptors.request.use(
 // 响应拦截器
 instance.interceptors.response.use(
   (response: AxiosResponse<ResponseData>) => {
-    // 后端提示错误
-    //  - 根据后端返回的实际情况修改
+    // 后端提示错误 ( 根据后端返回的实际情况修改 )
     if (response.data.code !== '20000') {
-      // Token 失效
+      // 处理用户鉴权相关问题 ( 根据后端返回的实际情况修改 )
+      //  - 40001: 未登录
+      //  - 40005: Token 失效
       if (['40001', '40005'].includes(response.data.code)) {
         uni.hideLoading();
         uni.showToast({ title: '登录已过期，请重新登录', icon: 'none' });
