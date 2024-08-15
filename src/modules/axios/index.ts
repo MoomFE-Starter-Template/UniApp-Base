@@ -14,8 +14,8 @@ export const instance = axios.create({
 // 请求拦截器
 instance.interceptors.request.use(
   (config) => {
-    // 添加 Token
-    if (accessToken.value)
+    // 请求头携带 Token
+    if (accessToken.value && !config.headers.Authorization)
       config.headers.Authorization = `Bearer ${accessToken.value}`;
 
     return config;
