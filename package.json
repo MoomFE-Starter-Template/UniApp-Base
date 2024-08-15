@@ -54,7 +54,7 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-4020420240722002",
     "@dcloudio/uni-ui": "^1.5.6",
     "@mixte/use": "^1.13.2",
-    "@mixte/validator": "^2.0.2",
+    "@mixte/validator": "^2.1.0",
     "@uni-helper/axios-adapter": "^1.5.2",
     "@uni-helper/uni-use": "^0.19.12",
     "@uni-helper/vite-plugin-uni-components": "^0.0.9",
