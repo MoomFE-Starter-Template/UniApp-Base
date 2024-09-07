@@ -60,7 +60,7 @@
     "@uni-helper/vite-plugin-uni-components": "^0.0.9",
     "@unocss-applet/reset": "^0.8.2",
     "@vueuse/core": "^11.0.3",
-    "@vueuse/math": "^10.11.0",
+    "@vueuse/math": "^11.0.3",
     "axios": "^1.7.3",
     "lodash-es": "^4.17.21",
     "mixte": "^2.4.0",
@@ -101,8 +101,8 @@
   },
   "pnpm": {
     "patchedDependencies": {
-      "vue-demi": "patches/vue-demi.patch",
-      "@vueuse/core": "patches/@vueuse__core.patch"
+      "vue-demi@0.14.10": "patches/vue-demi@0.14.10.patch",
+      "@vueuse/core@11.0.3": "patches/@vueuse__core@11.0.3.patch"
     }
   }
 }
