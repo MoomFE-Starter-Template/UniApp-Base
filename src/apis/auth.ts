@@ -1,5 +1,5 @@
-import { request } from '@/utils/request';
 import type { ResponseData } from '@/types';
+import { request } from '@/utils/request';
 
 /** 登录响应数据 */
 export interface LoginResponse {

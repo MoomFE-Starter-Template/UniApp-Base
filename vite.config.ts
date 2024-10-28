@@ -1,16 +1,16 @@
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { defineConfig } from 'vite';
-import { isESModule } from 'mixte';
 import Uni from '@dcloudio/vite-plugin-uni';
-import Unocss from 'unocss/vite';
+import { MixteUseAutoImport } from '@mixte/use/register';
+import Inject from '@rollup/plugin-inject';
 import Components from '@uni-helper/vite-plugin-uni-components';
 import { UniUIResolver, WotResolver } from '@uni-helper/vite-plugin-uni-components/resolvers';
+import { isESModule } from 'mixte';
 import { NutResolver } from 'nutui-uniapp';
+import Unocss from 'unocss/vite';
 import AutoImport from 'unplugin-auto-import/vite';
+import { defineConfig } from 'vite';
 import Inspect from 'vite-plugin-inspect';
-import Inject from '@rollup/plugin-inject';
-import { MixteUseAutoImport } from '@mixte/use/register';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 

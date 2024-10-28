@@ -55,10 +55,10 @@
 </template>
 
 <script lang="ts" setup>
-  import { useMessage } from 'wot-design-uni';
-  import UsernameForm from './children/username-form.vue';
-  import CaptchaForm from './children/captcha-form.vue';
   import { forceNavigateBack } from '@/utils/forceNavigateBack';
+  import { useMessage } from 'wot-design-uni';
+  import CaptchaForm from './children/captcha-form.vue';
+  import UsernameForm from './children/username-form.vue';
 
   const auth = useAuthStore();
 
