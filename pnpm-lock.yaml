@@ -35,11 +35,11 @@ importers:
         specifier: ^1.5.7
         version: 1.5.7
       '@mixte/use':
-        specifier: ^2.4.0
-        version: 2.4.0(vue@3.4.21(typescript@5.6.3))
+        specifier: ^2.5.0
+        version: 2.5.0(vue@3.4.21(typescript@5.6.3))
       '@mixte/validator':
-        specifier: ^2.4.0
-        version: 2.4.0
+        specifier: ^2.5.0
+        version: 2.5.0
       '@uni-helper/axios-adapter':
         specifier: ^1.5.2
         version: 1.5.2(axios@1.7.7)
@@ -65,8 +65,8 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       mixte:
-        specifier: ^2.4.0
-        version: 2.4.0
+        specifier: ^2.5.0
+        version: 2.5.0
       nutui-uniapp:
         specifier: ^1.8.0
         version: 1.8.0(@uni-helper/uni-app-types@0.5.13(typescript@5.6.3))(vue@3.4.21(typescript@5.6.3))
@@ -1548,11 +1548,11 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@mixte/use@2.4.0':
-    resolution: {integrity: sha512-qqosB/GK6AWGKnm3s8U29/g/T9Ew/44SCf4USH9oIAb1MrFMh1efDHdm6VnlRj2qqMOO1Pxs0SBoGgR8npyoKg==}
+  '@mixte/use@2.5.0':
+    resolution: {integrity: sha512-9sfidsM4YXx48JeprrsVkwQNxopWIbdokqj30Dt6hoq/+2gOB7SSiWC/fljWiBGrsF2Hw+MlyZnb4DkJDXiTyA==}
 
-  '@mixte/validator@2.4.0':
-    resolution: {integrity: sha512-p0uLGbk0M1qy8ZtaTJpQ/3Vh+V6GIm22VdtZkUpEwo1z+/RXBlpWp0HqRVjylGhs6juZG6VwS1WTr1iwaRZfcw==}
+  '@mixte/validator@2.5.0':
+    resolution: {integrity: sha512-xxkEVmvp1aexMoPOcIJ8kLWtDwnCoFlm8+4ZEq62om2/Gjlg+craa0Wb3Qi9Qm/m8sySz735n/QXI57MgiIJZQ==}
 
   '@moomfe/eslint-config@3.4.0':
     resolution: {integrity: sha512-qc0+36261FSxLsDxhF6v0l8AjGu+YQl+qdNIIXe2oLqFhurNllWRxv/6Z4+eiN3iOCHb9/qdxWXQiyO3zqEq+Q==}
@@ -3936,8 +3936,8 @@ packages:
   miniprogram-api-typings@4.0.1:
     resolution: {integrity: sha512-Ok4SSNCYnNLgbAhHCpIeqx6XICZ3aUxZ2iQDExmwKEinWaQQFzzxobK5JP9skrEOWn9PoKodjw4iUdF8Um0i/A==}
 
-  mixte@2.4.0:
-    resolution: {integrity: sha512-7V45ot+ING/hNgDWi3Zrr3zEcX05jvZiagx+mD8/TR6nu5MoXhiOhwGhIzi3fk8IV2vNupFFGrbipfmD2Vw/Ag==}
+  mixte@2.5.0:
+    resolution: {integrity: sha512-ry6iZMOIuusycnQe22XOxOIGUdceXaoFvvPTkVI7kiShWJI+mIKMzkV5J3WTKkjlSldrLLlioA+mQI6rTfLXVA==}
 
   mkdirp@0.5.6:
     resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}
@@ -7115,16 +7115,16 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mixte/use@2.4.0(vue@3.4.21(typescript@5.6.3))':
+  '@mixte/use@2.5.0(vue@3.4.21(typescript@5.6.3))':
     dependencies:
       '@vueuse/core': 11.1.0(patch_hash=ausfe34sfc3qdx4re62iuvfvoa)(vue@3.4.21(typescript@5.6.3))
-      mixte: 2.4.0
+      mixte: 2.5.0
       vue-demi: 0.14.10(patch_hash=2gjltpp76bhyk7ovoukgmi5ryq)(vue@3.4.21(typescript@5.6.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
 
-  '@mixte/validator@2.4.0': {}
+  '@mixte/validator@2.5.0': {}
 
   '@moomfe/eslint-config@3.4.0(@typescript-eslint/utils@8.11.0(eslint@9.16.0(jiti@1.21.0))(typescript@5.6.3))(@vue/compiler-sfc@3.5.12)(jiti@1.21.0)':
     dependencies:
@@ -9640,7 +9640,7 @@ snapshots:
   jsdom@16.7.0:
     dependencies:
       abab: 2.0.6
-      acorn: 8.12.1
+      acorn: 8.14.0
       acorn-globals: 6.0.0
       cssom: 0.4.4
       cssstyle: 2.3.0
@@ -10140,7 +10140,7 @@ snapshots:
 
   miniprogram-api-typings@4.0.1: {}
 
-  mixte@2.4.0: {}
+  mixte@2.5.0: {}
 
   mkdirp@0.5.6:
     dependencies:
