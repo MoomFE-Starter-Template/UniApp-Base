@@ -2,7 +2,7 @@
   "name": "uni-app-base",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.12.3",
+  "packageManager": "pnpm@9.15.0",
   "author": "Wei Zhang <https://github.com/Zhang-Wei-666>",
   "homepage": "https://github.com/MoomFE-Starter-Template/Uniapp-Base",
   "scripts": {
