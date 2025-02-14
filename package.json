@@ -102,7 +102,7 @@
   "pnpm": {
     "patchedDependencies": {
       "vue-demi@0.14.10": "patches/vue-demi@0.14.10.patch",
-      "@vueuse/core@11.1.0": "patches/@vueuse__core@11.1.0.patch"
+      "@vueuse/core": "patches/@vueuse__core.patch"
     }
   }
 }
