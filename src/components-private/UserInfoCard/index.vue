@@ -11,7 +11,7 @@
       </template>
       <!-- 用户信息请求成功 -->
       <template v-else-if="auth.info.isSuccess">
-        <view class="flex items-center gap-2">
+        <view class="flex-(~ grow) items-center gap-2">
           <nut-avatar :size="50">
             <image :src="auth.info.data?.avatar" />
           </nut-avatar>
