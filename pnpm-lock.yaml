@@ -162,8 +162,8 @@ importers:
         specifier: 6.1.0
         version: 6.1.0(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.1)(terser@5.26.0)(tsx@4.19.2)
       vite-plugin-inspect:
-        specifier: ^0.10.6
-        version: 0.10.6(rollup@4.34.6)(vite@6.1.0(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.1)(terser@5.26.0)(tsx@4.19.2))
+        specifier: ^10.2.1
+        version: 10.2.1(vite@6.1.0(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.1)(terser@5.26.0)(tsx@4.19.2))
 
 packages:
 
@@ -2460,6 +2460,10 @@ packages:
     resolution: {integrity: sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA==}
     engines: {node: '>=10'}
 
+  ansis@3.14.0:
+    resolution: {integrity: sha512-R1LnSpYZWMDEFoAyCrfgToVz4ES25luDpjlZsUlD5GXdPWb91U+TZGkxWAOvt+7zWRY/ctOxhtTx5HUtL3qmbA==}
+    engines: {node: '>=14'}
+
   any-base@1.1.0:
     resolution: {integrity: sha512-uMgjozySS8adZZYePpaWs8cxB9/kdzmpX6SgJZ+wbz1K5eYk5QMYDVJaZKhxyIHUdnnJkfR7SVgStgH7LkGUyg==}
 
@@ -2946,8 +2950,8 @@ packages:
   error-ex@1.3.2:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
 
-  error-stack-parser-es@0.1.5:
-    resolution: {integrity: sha512-xHku1X40RO+fO8yJ8Wh2f2rZWVjqyhb1zgq1yZ8aZRQkv6OOKhKWRUaht3eSCUbAOBaKIgM+ykwFLE+QUxgGeg==}
+  error-stack-parser-es@1.0.5:
+    resolution: {integrity: sha512-5qucVt2XcuGMcEGgWI7i+yZpmpByQ8J1lHhcL7PwqCwu9FPP3VUXzT4ltHe5i2z9dePwEHcDVOAfSnHsOlCXRA==}
 
   es-module-lexer@1.5.4:
     resolution: {integrity: sha512-MVNK56NiMrOwitFB7cqDwq0CQutbw+0BvLshJSse0MUNU+y1FC3bUS/AQg7oUng+/wKrrki7JfmwtVHkVfPLlw==}
@@ -5083,8 +5087,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vite-plugin-inspect@0.10.6:
-    resolution: {integrity: sha512-R3pwljjBbjFM2sZvy6Zvynnm51oaEwLYyYPk9Wp2lF97w/YMBq+KtTJXpCA17IO2pImX0bWA6WB05kuqRnkuyQ==}
+  vite-plugin-inspect@10.2.1:
+    resolution: {integrity: sha512-SO3kz3J4yUCNb/cndtIf1mGSJitnbmxjDSRUr0srqfHf06ry9i9ujHQFU7ZUarlf9HFqXW14VyC70fFojP/fKg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@nuxt/kit': '*'
@@ -8299,6 +8303,8 @@ snapshots:
 
   ansi-styles@5.2.0: {}
 
+  ansis@3.14.0: {}
+
   any-base@1.1.0: {}
 
   anymatch@3.1.3:
@@ -8757,7 +8763,7 @@ snapshots:
     dependencies:
       is-arrayish: 0.2.1
 
-  error-stack-parser-es@0.1.5: {}
+  error-stack-parser-es@1.0.5: {}
 
   es-module-lexer@1.5.4: {}
 
@@ -11457,20 +11463,15 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-inspect@0.10.6(rollup@4.34.6)(vite@6.1.0(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.1)(terser@5.26.0)(tsx@4.19.2)):
+  vite-plugin-inspect@10.2.1(vite@6.1.0(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.1)(terser@5.26.0)(tsx@4.19.2)):
     dependencies:
-      '@antfu/utils': 0.7.10
-      '@rollup/pluginutils': 5.1.4(rollup@4.34.6)
+      ansis: 3.14.0
       debug: 4.4.0
-      error-stack-parser-es: 0.1.5
-      fs-extra: 11.2.0
+      error-stack-parser-es: 1.0.5
       open: 10.1.0
-      perfect-debounce: 1.0.0
-      picocolors: 1.1.1
       sirv: 3.0.0
       vite: 6.1.0(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.1)(terser@5.26.0)(tsx@4.19.2)
     transitivePeerDependencies:
-      - rollup
       - supports-color
 
   vite@6.1.0(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.1)(terser@5.26.0)(tsx@4.19.2):
