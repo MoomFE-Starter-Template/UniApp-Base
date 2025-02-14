@@ -1,0 +1,9 @@
+diff --git a/index.mjs b/index.mjs
+index a49e8e623da9b56ff0b853adbc8c3795b47b67b6..f657128649284fb2cdf218a9e8b02daad8e37448 100644
+--- a/index.mjs
++++ b/index.mjs
+@@ -1,3 +1,4 @@
++export { isString, isFunction } from 'mixte';
+ import { noop, makeDestructurable, camelize, isClient, toArray, watchImmediate, isObject, tryOnScopeDispose, isIOS, notNullish, tryOnMounted, objectOmit, promiseTimeout, until, injectLocal, provideLocal, pxValue, increaseWithUnit, objectEntries, createSingletonPromise, useTimeoutFn, pausableWatch, toRef, createEventHook, useIntervalFn, computedWithControl, timestamp, pausableFilter, watchIgnorable, debounceFilter, bypassFilter, createFilterWrapper, toRefs, watchOnce, containsProp, hasOwn, throttleFilter, useDebounceFn, useThrottleFn, tryOnUnmounted, clamp, syncRef, objectPick, watchWithFilter, tryOnBeforeUnmount, identity, isDef, whenever, isWorker } from '@vueuse/shared';
+ export * from '@vueuse/shared';
+ import { isRef, ref, shallowRef, watchEffect, computed, inject, defineComponent, h, TransitionGroup, shallowReactive, Fragment, toValue, unref, getCurrentInstance, onMounted, watch, customRef, onUpdated, readonly, reactive, hasInjectionContext, toRaw, nextTick, markRaw, getCurrentScope, isReadonly, onBeforeUpdate } from 'vue';
