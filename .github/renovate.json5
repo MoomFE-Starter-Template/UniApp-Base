@@ -10,6 +10,9 @@
 
     // 使用了 pnpm 打补丁的包
     "vue-demi",
-    "@vueuse/*"
+    "@vueuse/*",
+
+    // https://github.com/Moonofweisheng/wot-design-uni/issues/716
+    "sass"
   ]
 }

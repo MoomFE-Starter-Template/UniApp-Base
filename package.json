@@ -90,7 +90,7 @@
     "fs-extra": "^11.3.0",
     "miniprogram-api-typings": "^4.0.5",
     "pnpm": "^9.15.5",
-    "sass": "^1.85.0",
+    "sass": "1.78.0",
     "typescript": "^5.7.3",
     "unocss": "^65.4.3",
     "unocss-applet": "^0.9.0",
