@@ -92,7 +92,7 @@
     "pnpm": "^9.15.9",
     "sass": "1.78.0",
     "typescript": "^5.8.2",
-    "unocss": "^65.4.3",
+    "unocss": "^65.5.0",
     "unocss-applet": "^0.9.0",
     "unocss-preset-extra": "^0.5.3",
     "unplugin-auto-import": "^19.1.2",
