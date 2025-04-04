@@ -96,7 +96,7 @@
     "unocss-applet": "^0.9.0",
     "unocss-preset-extra": "^0.5.3",
     "unplugin-auto-import": "^19.1.2",
-    "vite": "6.2.4",
+    "vite": "6.2.5",
     "vite-plugin-inspect": "^10.3.0"
   },
   "pnpm": {
