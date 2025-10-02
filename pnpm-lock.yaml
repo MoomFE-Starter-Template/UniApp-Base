@@ -108,8 +108,8 @@ importers:
         specifier: ^5.0.5
         version: 5.0.5(rollup@4.40.1)
       '@rollup/pluginutils':
-        specifier: ^5.2.0
-        version: 5.2.0(rollup@4.40.1)
+        specifier: ^5.3.0
+        version: 5.3.0(rollup@4.40.1)
       '@types/fs-extra':
         specifier: ^11.0.4
         version: 11.0.4
@@ -1684,8 +1684,8 @@ packages:
       rollup:
         optional: true
 
-  '@rollup/pluginutils@5.2.0':
-    resolution: {integrity: sha512-qWJ2ZTbmumwiLFomfzTyt5Kng4hwPi9rwCYN4SHb6eaRU1KNO4ccxINHr/VhH4GgPlt1XfSTLX2LBTme8ne4Zw==}
+  '@rollup/pluginutils@5.3.0':
+    resolution: {integrity: sha512-5EdhGZtnu3V88ces7s53hhfK5KSASnJZv8Lulpc04cWO3REESroJXg73DFsOmgbU2BhwV0E20bu2IDZb3VKW4Q==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -6114,7 +6114,7 @@ snapshots:
       '@dcloudio/uni-shared': 3.0.0-4040520250104002
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
-      '@rollup/pluginutils': 5.2.0(rollup@4.40.1)
+      '@rollup/pluginutils': 5.3.0(rollup@4.40.1)
       '@vue/compiler-core': 3.4.21
       '@vue/compiler-dom': 3.4.21
       '@vue/compiler-sfc': 3.4.21
@@ -6143,7 +6143,7 @@ snapshots:
       '@dcloudio/uni-i18n': 3.0.0-4040520250104002
       '@dcloudio/uni-nvue-styler': 3.0.0-4040520250104002
       '@dcloudio/uni-shared': 3.0.0-4040520250104002
-      '@rollup/pluginutils': 5.2.0(rollup@4.40.1)
+      '@rollup/pluginutils': 5.3.0(rollup@4.40.1)
       '@vitejs/plugin-vue': 5.1.0(vite@6.3.6(@types/node@22.18.8)(jiti@2.4.2)(sass@1.78.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.4.21(typescript@5.8.3))
       '@vue/compiler-dom': 3.4.21
       '@vue/compiler-sfc': 3.4.21
@@ -6221,7 +6221,7 @@ snapshots:
       '@intlify/core-base': 9.1.9
       '@intlify/shared': 9.1.9
       '@intlify/vue-devtools': 9.1.9
-      '@rollup/pluginutils': 5.2.0(rollup@4.40.1)
+      '@rollup/pluginutils': 5.3.0(rollup@4.40.1)
       '@vue/compiler-core': 3.4.21
       '@vue/compiler-dom': 3.4.21
       '@vue/compiler-sfc': 3.4.21
@@ -6313,7 +6313,7 @@ snapshots:
     dependencies:
       '@dcloudio/uni-cli-shared': 3.0.0-4040520250104002(@vueuse/core@11.3.0(patch_hash=ucpis2o43b5hbuoxhh3yidyepi)(vue@3.4.21(typescript@5.8.3)))(postcss@8.5.6)(rollup@4.40.1)(vue@3.4.21(typescript@5.8.3))
       '@dcloudio/uni-shared': 3.0.0-4040520250104002
-      '@rollup/pluginutils': 5.2.0(rollup@4.40.1)
+      '@rollup/pluginutils': 5.3.0(rollup@4.40.1)
       '@vue/compiler-dom': 3.4.21
       '@vue/compiler-sfc': 3.4.21
       '@vue/server-renderer': 3.4.21(vue@3.4.21(typescript@5.8.3))
@@ -6478,7 +6478,7 @@ snapshots:
       '@babel/plugin-transform-typescript': 7.26.8(@babel/core@7.26.9)
       '@dcloudio/uni-cli-shared': 3.0.0-4040520250104002(@vueuse/core@11.3.0(patch_hash=ucpis2o43b5hbuoxhh3yidyepi)(vue@3.4.21(typescript@5.8.3)))(postcss@8.5.6)(rollup@4.40.1)(vue@3.4.21(typescript@5.8.3))
       '@dcloudio/uni-shared': 3.0.0-4040520250104002
-      '@rollup/pluginutils': 5.2.0(rollup@4.40.1)
+      '@rollup/pluginutils': 5.3.0(rollup@4.40.1)
       '@vitejs/plugin-legacy': 5.3.2(terser@5.39.0)(vite@6.3.6(@types/node@22.18.8)(jiti@2.4.2)(sass@1.78.0)(terser@5.39.0)(yaml@2.7.0))
       '@vitejs/plugin-vue': 5.1.0(vite@6.3.6(@types/node@22.18.8)(jiti@2.4.2)(sass@1.78.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.4.21(typescript@5.8.3))
       '@vitejs/plugin-vue-jsx': 3.1.0(vite@6.3.6(@types/node@22.18.8)(jiti@2.4.2)(sass@1.78.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.4.21(typescript@5.8.3))
@@ -7342,15 +7342,15 @@ snapshots:
 
   '@rollup/plugin-inject@5.0.5(rollup@4.40.1)':
     dependencies:
-      '@rollup/pluginutils': 5.2.0(rollup@4.40.1)
+      '@rollup/pluginutils': 5.3.0(rollup@4.40.1)
       estree-walker: 2.0.2
       magic-string: 0.30.17
     optionalDependencies:
       rollup: 4.40.1
 
-  '@rollup/pluginutils@5.2.0(rollup@4.40.1)':
+  '@rollup/pluginutils@5.3.0(rollup@4.40.1)':
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       estree-walker: 2.0.2
       picomatch: 4.0.2
     optionalDependencies:
@@ -7652,7 +7652,7 @@ snapshots:
   '@uni-helper/vite-plugin-uni-components@0.2.3(rollup@4.40.1)':
     dependencies:
       '@antfu/utils': 0.7.10
-      '@rollup/pluginutils': 5.2.0(rollup@4.40.1)
+      '@rollup/pluginutils': 5.3.0(rollup@4.40.1)
       chokidar: 3.6.0
       debug: 4.4.3
       fast-glob: 3.3.3
@@ -8975,7 +8975,7 @@ snapshots:
 
   estree-walker@3.0.3:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
 
   esutils@2.0.3: {}
 
@@ -11103,7 +11103,7 @@ snapshots:
 
   unimport@3.14.6(rollup@4.40.1):
     dependencies:
-      '@rollup/pluginutils': 5.2.0(rollup@4.40.1)
+      '@rollup/pluginutils': 5.3.0(rollup@4.40.1)
       acorn: 8.14.1
       escape-string-regexp: 5.0.0
       estree-walker: 3.0.3
@@ -11206,7 +11206,7 @@ snapshots:
   unplugin-auto-import@0.18.6(@vueuse/core@11.3.0(patch_hash=ucpis2o43b5hbuoxhh3yidyepi)(vue@3.4.21(typescript@5.8.3)))(rollup@4.40.1):
     dependencies:
       '@antfu/utils': 0.7.10
-      '@rollup/pluginutils': 5.2.0(rollup@4.40.1)
+      '@rollup/pluginutils': 5.3.0(rollup@4.40.1)
       fast-glob: 3.3.3
       local-pkg: 0.5.1
       magic-string: 0.30.17
