@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "packageManager": "pnpm@9.15.9",
   "author": "Wei Zhang <https://github.com/Zhang-Wei-666>",
-  "homepage": "https://github.com/MoomFE-Starter-Template/Uniapp-Base",
+  "homepage": "https://github.com/MoomFE-Starter-Template/UniApp-Base",
   "scripts": {
     "dev": "npm run dev:h5",
     "dev:h5": "pnpm install && uni",

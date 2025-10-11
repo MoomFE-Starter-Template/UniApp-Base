@@ -1,5 +1,5 @@
 <h1 align="center">项目快速启动模板</h1>
-<h3 align="center">Uniapp 项目模板</h3>
+<h3 align="center">UniApp 项目模板</h3>
 
 <br>
 

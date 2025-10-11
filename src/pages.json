@@ -13,7 +13,7 @@
     }
   ],
   "globalStyle": {
-    "navigationBarTitleText": "Uniapp 项目模板",
+    "navigationBarTitleText": "UniApp 项目模板",
     "navigationBarTextStyle": "black",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"

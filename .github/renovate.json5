@@ -4,7 +4,7 @@
     "github>moomfe/renovate-config"
   ],
   "ignoreDeps": [
-    // Uniapp 支持的 Vue 版本
+    // UniApp 支持的 Vue 版本
     "vue",
     "pinia",
 

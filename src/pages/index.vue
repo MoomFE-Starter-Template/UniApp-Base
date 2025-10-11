@@ -3,7 +3,7 @@
     <TheLogo />
 
     <view class="mt-2">
-      Uniapp 项目模板
+      UniApp 项目模板
     </view>
 
     <view class="mt-6">
