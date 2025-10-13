@@ -2,7 +2,7 @@
   "name": "uni-app-base",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.15.9",
+  "packageManager": "pnpm@10.0.0",
   "author": "Wei Zhang <https://github.com/Zhang-Wei-666>",
   "homepage": "https://github.com/MoomFE-Starter-Template/UniApp-Base",
   "scripts": {
@@ -89,7 +89,7 @@
     "eslint": "^9.30.0",
     "fs-extra": "^11.3.2",
     "miniprogram-api-typings": "^4.1.0",
-    "pnpm": "^9.15.9",
+    "pnpm": "^10.0.0",
     "sass": "1.78.0",
     "typescript": "^5.8.3",
     "unocss": "^65.5.0",
