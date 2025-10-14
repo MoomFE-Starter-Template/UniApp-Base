@@ -93,7 +93,7 @@
     "sass": "1.78.0",
     "typescript": "^5.9.3",
     "unocss": "^66.5.3",
-    "unocss-applet": "^0.10.0",
+    "unocss-applet": "^0.12.2",
     "unocss-preset-extra": "^1.0.0",
     "unplugin-auto-import": "^20.2.0",
     "vite": "7.1.9",
