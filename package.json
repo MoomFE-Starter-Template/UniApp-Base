@@ -91,7 +91,7 @@
     "miniprogram-api-typings": "^4.1.0",
     "pnpm": "^9.15.9",
     "sass": "1.78.0",
-    "typescript": "^5.8.3",
+    "typescript": "^5.9.3",
     "unocss": "^65.5.0",
     "unocss-applet": "^0.10.0",
     "unocss-preset-extra": "^0.5.3",
