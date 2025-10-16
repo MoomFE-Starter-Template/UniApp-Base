@@ -1,8 +1,8 @@
 <template>
-  <view rounded-full bg-neutral-1>
+  <view rounded-full bg-neutral-100>
     <wd-input v-model="mobile" type="text" placeholder="请输入手机号" clearable no-border />
   </view>
-  <view class="[&_.wd-button]-ml-1" rounded-full bg-neutral-1 mt-3>
+  <view class="[&_.wd-button]-ml-1" rounded-full bg-neutral-100 mt-3>
     <wd-input
       v-model="captcha"
       clearable no-border use-suffix-slot

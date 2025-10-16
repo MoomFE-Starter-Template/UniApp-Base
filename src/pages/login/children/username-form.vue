@@ -1,8 +1,8 @@
 <template>
-  <view rounded-full bg-neutral-1>
+  <view rounded-full bg-neutral-100>
     <wd-input v-model="username" type="text" placeholder="请输入账号 ( admin )" clearable no-border />
   </view>
-  <view rounded-full bg-neutral-1 mt-3>
+  <view rounded-full bg-neutral-100 mt-3>
     <wd-input v-model="password" placeholder="请输入密码 ( 123456 )" show-password clearable no-border />
   </view>
 </template>
