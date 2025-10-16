@@ -1,5 +1,5 @@
-import pinia from '@/modules/pinia/index';
 import { createSSRApp } from 'vue';
+import pinia from '@/modules/pinia/index';
 import App from './App.vue';
 
 import 'uno.css';

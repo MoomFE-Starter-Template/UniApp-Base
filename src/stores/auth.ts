@@ -1,7 +1,7 @@
 import type { CaptchaLoginData, UsernameLoginData } from '@/apis/auth';
+import { defineStore } from 'pinia';
 import { captchaLogin, getUserInfo, logout as toLogout, sendCaptcha as toSendCaptcha, usernameLogin } from '@/apis/auth';
 import { accessToken } from '@/shared/env';
-import { defineStore } from 'pinia';
 
 export const useAuthStore = defineStore('auth', () => {
   /** 是否登录 */

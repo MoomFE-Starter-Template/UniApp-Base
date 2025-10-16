@@ -55,8 +55,8 @@
 </template>
 
 <script lang="ts" setup>
-  import { forceNavigateBack } from '@/utils/forceNavigateBack';
   import { useMessage } from 'wot-design-uni';
+  import { forceNavigateBack } from '@/utils/forceNavigateBack';
   import CaptchaForm from './children/captcha-form.vue';
   import UsernameForm from './children/username-form.vue';
 

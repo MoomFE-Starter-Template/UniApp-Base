@@ -1,8 +1,8 @@
-import type { ResponseData } from '@/types';
 import type { AxiosResponse } from 'axios';
-import { accessToken } from '@/shared/env';
+import type { ResponseData } from '@/types';
 import { createUniAppAxiosAdapter } from '@uni-helper/axios-adapter';
 import axios from 'axios';
+import { accessToken } from '@/shared/env';
 
 axios.defaults.adapter = createUniAppAxiosAdapter();
 
