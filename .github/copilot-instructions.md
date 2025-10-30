@@ -1,0 +1,27 @@
+# AI 智能代理手册
+- **技术栈**：UniApp + Vue 3（`<script setup>`）、Pinia、UnoCSS、TypeScript；应用由 `src/main.ts` 创建 SSR 实例并挂载 `src/modules/pinia/index.ts`。
+- **运行环境**：Vite 在 `vite.config.ts` 中指定 `envPrefix: "APP_"`，运行时配置通过 `import.meta.env.APP_*` 读取；别名 `@`、`~` 指向 `src`，`@@` 指向仓库根目录。
+- **开发命令**：`pnpm dev` 默认启动 H5（内部执行 `npm run dev:h5` → `pnpm install && uni`）；按平台使用 `pnpm dev:mp-weixin`、`pnpm build:h5` 等；代码检查依赖 `pnpm lint` / `pnpm lint:fix`。
+- **补丁维护**：升级依赖前确保 `patches/@vueuse__core.patch` 和 `patches/vue-demi@0.14.10.patch` 仍可应用；`pnpm up` 封装了安全升级流程。
+- **HTTP 层**：`src/modules/axios/index.ts` 通过 `@uni-helper/axios-adapter` 创建共享 axios 实例，并由 `src/utils/request.ts` 导出为 `request`；接口统一返回 `ResponseData<T>`（字符串 `code`）并在拦截器中统一 toast 错误。
+- **认证流程**：`src/apis/auth.ts` 定义登录/登出接口，`src/shared/env.ts` 使用 `useStorageSync` 持久化 Token，axios 请求拦截器读取后写入 `Authorization`。
+- **状态模式**：Pinia store 位于 `src/stores`，借助 AutoImport 全局可用，组件直接调用 `useAuthStore()`；异步操作统一包裹 `useRequestReactive`（`@mixte/use`），通过 `.execute()`、`.isLoading`、`.isSuccess` 管理状态。
+- **导航辅助**：`src/utils/forceNavigateBack.ts` 负责返回上一页或回退到 `/pages/index`；路由及页面样式在 `src/pages.json` 统一配置（登录页使用 `navigationStyle: "custom"`）。
+- **界面与样式**：UnoCSS 配置位于 `unocss.config.ts`，会根据 `process.env.UNI_PLATFORM` 切换预设并生成 `src/shared/unocss.theme.ts`（不要手动编辑）；模板中可混用标准类名（`class="flex items-center"`）与属性写法（`flex="~ col"`），SCSS 中常用 `--uno` 自定义属性注入原子类。
+- **组件自动加载**：`@uni-helper/vite-plugin-uni-components` 会扫描 `src/components`、`src/components-private`、`src/layouts`，并内置 uni-ui、wot-design-uni、nutui-uniapp 解析器，通常无需手动 `import`。
+- **样式约定**：全局主题修改集中在 `src/styles/styles.scss`；组件内覆写常见写法是 SCSS + UnoCSS 组合，例如 `:deep(.wd-input){ --wot-input-bg: transparent; --uno: pr-4; }`。
+- **平台特性**：`App.vue` 的更新逻辑使用 UniApp 小程序条件编译注释控制；新增平台相关代码时沿用相同注释包裹。
+- **表单模式**：登录子表单（`src/pages/login/children`）通过 `defineExpose` 暴露 `validate`、`login` 供父组件编排；成功后统一调用 `uni.showLoading`/`uni.showToast` 并触发 `useAuthStore` 操作。
+- **消息交互**：弹窗、吐司优先使用 wot-design-uni 的 `useMessage`、`wd-message-box` 或 `uni.showToast`；遵循现有 UX（登出确认、验证码倒计时）。
+- **参考文件**：`src/pages/index.vue` 演示布局与入口流程，`src/components-private/UserInfoCard/index.vue` 展示 `useRequestReactive` 的加载态与完成态处理。
+- **Lint 与类型**：ESLint 继承 `@moomfe/eslint-config`（单引号、分号、限制 `console`）；`tsconfig.json` 开启严格模式并启用 Volar 插件，新增代码保持类型声明并使用 `defineProps` / `defineEmits`。
+- **测试习惯**：暂无自动化测试；新增复杂逻辑时依靠 `useRequestReactive` 的状态标志与现有 toast 流程做验证。
+- **新增接口**：统一放在 `src/apis`，返回 `ResponseData` 泛型；调用方（store/composable）通过共享 axios 实例接入，以复用拦截器和 Token 管理。
+- **新增组件**：可复用组件放 `src/components`，业务组件放 `src/components-private`；利用自动注册，脚本使用 `<script lang="ts" setup>` 并补全 props 类型。
+- **扩展样式**：模板优先使用 UnoCSS 原子类，复杂场景结合 SCSS 和 `--uno` 变量，确保 H5 与小程序转译兼容。
+- **导航改动**：更新 `src/pages.json` 并同步调整对应布局，注意数组首项为启动页。
+- **调试技巧**：SSR 检查用 `pnpm dev:h5:ssr`，小程序仿真用 `pnpm dev:mp-*`；`vite-plugin-inspect` 已启用，开发时访问 `/__inspect/` 查看自动导入与转换。
+- **类型声明**：`types/auto-imports.d.ts`、`types/components.d.ts` 提供 IDE 智能提示，缺失时重新运行 Vite 即可生成。
+- **错误处理**：axios 拦截器已统一弹 toast，调用方不要重复提示，保持返回 reject 供上层分支处理。
+- **Token 生命周期**：登出操作清空 `accessToken.value` 并可选弹 toast；新的鉴权页面请监听 `useAuthStore().isLogin` 而非直接操作存储。
+- **平台兼容**：如 `getUpdateManager` 等仅在小程序存在，新增调用时使用相同的小程序条件编译注释保护，避免 H5 构建异常。
