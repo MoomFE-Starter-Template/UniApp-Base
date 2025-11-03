@@ -82,7 +82,7 @@
     "@rollup/pluginutils": "^5.3.0",
     "@types/fs-extra": "^11.0.4",
     "@types/lodash-es": "^4.17.12",
-    "@types/node": "^22.18.13",
+    "@types/node": "^24.10.0",
     "@uni-helper/uni-app-types": "^0.5.13",
     "@uni-helper/uni-ui-types": "^0.5.15",
     "@vue/tsconfig": "^0.8.1",
