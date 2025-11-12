@@ -13,6 +13,12 @@
     "@vueuse/*",
 
     // https://github.com/Moonofweisheng/wot-design-uni/issues/716
-    "sass"
+    "sass",
+
+    // 暂缓升级这几个依赖, 会导致小程序端启动失败
+    "vite",
+    "unocss",
+    "unocss-applet",
+    "@unocss-applet/*"
   ]
 }
