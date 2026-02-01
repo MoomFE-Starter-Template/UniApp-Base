@@ -86,7 +86,7 @@
     "@uni-helper/uni-app-types": "^0.5.13",
     "@uni-helper/uni-ui-types": "^0.5.15",
     "@vue/tsconfig": "^0.8.1",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "fs-extra": "^11.3.2",
     "miniprogram-api-typings": "^4.1.0",
     "pnpm": "^9.15.9",
