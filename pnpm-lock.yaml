@@ -126,8 +126,8 @@ importers:
         specifier: ^0.5.15
         version: 0.5.15(@uni-helper/uni-app-types@0.5.13(typescript@5.9.3))(typescript@5.9.3)
       '@vue/tsconfig':
-        specifier: ^0.8.1
-        version: 0.8.1(typescript@5.9.3)(vue@3.4.21(typescript@5.9.3))
+        specifier: ^0.9.1
+        version: 0.9.1(typescript@5.9.3)(vue@3.4.21(typescript@5.9.3))
       eslint:
         specifier: ^9.39.3
         version: 9.39.3(jiti@2.6.1)
@@ -2307,10 +2307,10 @@ packages:
   '@vue/shared@3.5.28':
     resolution: {integrity: sha512-cfWa1fCGBxrvaHRhvV3Is0MgmrbSCxYTXCSCau2I0a1Xw1N1pHAvkWCiXPRAqjvToILvguNyEwjevUqAuBQWvQ==}
 
-  '@vue/tsconfig@0.8.1':
-    resolution: {integrity: sha512-aK7feIWPXFSUhsCP9PFqPyFOcz4ENkb8hZ2pneL6m2UjCkccvaOhC/5KCKluuBufvp2KzkbdA2W2pk20vLzu3g==}
+  '@vue/tsconfig@0.9.1':
+    resolution: {integrity: sha512-buvjm+9NzLCJL29KY1j1991YYJ5e6275OiK+G4jtmfIb+z4POywbdm0wXusT9adVWqe0xqg70TbI7+mRx4uU9w==}
     peerDependencies:
-      typescript: 5.x
+      typescript: '>= 5.8'
       vue: ^3.4.0
     peerDependenciesMeta:
       typescript:
@@ -3919,9 +3919,6 @@ packages:
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-
-  lodash@4.17.23:
-    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
 
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
@@ -8606,7 +8603,7 @@ snapshots:
 
   '@vue/shared@3.5.28': {}
 
-  '@vue/tsconfig@0.8.1(typescript@5.9.3)(vue@3.4.21(typescript@5.9.3))':
+  '@vue/tsconfig@0.9.1(typescript@5.9.3)(vue@3.4.21(typescript@5.9.3))':
     optionalDependencies:
       typescript: 5.9.3
       vue: 3.4.21(typescript@5.9.3)
@@ -10536,8 +10533,6 @@ snapshots:
 
   lodash@4.17.21: {}
 
-  lodash@4.17.23: {}
-
   longest-streak@3.1.0: {}
 
   lru-cache@5.1.1:
@@ -12070,7 +12065,7 @@ snapshots:
 
   whatwg-url@8.7.0:
     dependencies:
-      lodash: 4.17.23
+      lodash: 4.17.21
       tr46: 2.1.0
       webidl-conversions: 6.1.0
 
