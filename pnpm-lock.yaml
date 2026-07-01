@@ -108,8 +108,8 @@ importers:
         specifier: ^5.0.5
         version: 5.0.5(rollup@4.52.4)
       '@rollup/pluginutils':
-        specifier: ^5.3.0
-        version: 5.3.0(rollup@4.52.4)
+        specifier: ^5.4.0
+        version: 5.4.0(rollup@4.52.4)
       '@types/fs-extra':
         specifier: ^11.0.4
         version: 11.0.4
@@ -1732,8 +1732,8 @@ packages:
       rollup:
         optional: true
 
-  '@rollup/pluginutils@5.3.0':
-    resolution: {integrity: sha512-5EdhGZtnu3V88ces7s53hhfK5KSASnJZv8Lulpc04cWO3REESroJXg73DFsOmgbU2BhwV0E20bu2IDZb3VKW4Q==}
+  '@rollup/pluginutils@5.4.0':
+    resolution: {integrity: sha512-MfPp06CjRLfXQ3wY0R8vJDYBy/MvVcc9OulEfR0B8Iv9ko+GCNaRZ+EpJYFl27LhKsZK0o420sYCRHCjfCgeUg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -4416,10 +4416,6 @@ packages:
   picomatch@2.3.2:
     resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
     engines: {node: '>=8.6'}
-
-  picomatch@4.0.2:
-    resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
-    engines: {node: '>=12'}
 
   picomatch@4.0.3:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
@@ -7899,7 +7895,7 @@ snapshots:
 
   '@rollup/plugin-inject@5.0.5(rollup@4.52.4)':
     dependencies:
-      '@rollup/pluginutils': 5.3.0(rollup@4.52.4)
+      '@rollup/pluginutils': 5.4.0(rollup@4.52.4)
       estree-walker: 2.0.2
       magic-string: 0.30.17
     optionalDependencies:
@@ -7913,11 +7909,11 @@ snapshots:
     optionalDependencies:
       rollup: 4.52.4
 
-  '@rollup/pluginutils@5.3.0(rollup@4.52.4)':
+  '@rollup/pluginutils@5.4.0(rollup@4.52.4)':
     dependencies:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
-      picomatch: 4.0.2
+      picomatch: 4.0.3
     optionalDependencies:
       rollup: 4.52.4
 
@@ -8278,7 +8274,7 @@ snapshots:
 
   '@uni-helper/vite-plugin-uni-components@0.2.10(rollup@4.52.4)':
     dependencies:
-      '@rollup/pluginutils': 5.3.0(rollup@4.52.4)
+      '@rollup/pluginutils': 5.4.0(rollup@4.52.4)
       chokidar: 4.0.3
       debug: 4.4.3
       local-pkg: 1.1.2
@@ -11222,8 +11218,6 @@ snapshots:
   picomatch@2.3.1: {}
 
   picomatch@2.3.2: {}
-
-  picomatch@4.0.2: {}
 
   picomatch@4.0.3: {}
 
